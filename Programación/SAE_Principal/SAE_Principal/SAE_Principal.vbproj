@@ -94,11 +94,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="datos.vb" />
-    <Compile Include="ERP_SAEDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ERP_SAEDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -153,17 +148,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ERP_SAEDataSet.xsc">
-      <DependentUpon>ERP_SAEDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="ERP_SAEDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ERP_SAEDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ERP_SAEDataSet.xss">
-      <DependentUpon>ERP_SAEDataSet.xsd</DependentUpon>
-    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
