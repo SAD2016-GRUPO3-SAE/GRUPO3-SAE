@@ -25,6 +25,7 @@ Public Class conexion
         Catch ex As Exception
             MsgBox(ex.Message)
             Return False
+
         End Try
     End Function
 End Class
