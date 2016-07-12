@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class CrearUsuario
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,9 @@ Partial Class CrearUsuario
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -43,7 +44,13 @@ Partial Class CrearUsuario
         Me.bt_crear = New System.Windows.Forms.Button()
         Me.bt_cancelar = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ERP_SAEDataSet = New SAE_Principal.ERP_SAEDataSet()
+        Me.Tbl_sae_proyectoBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Tbl_sae_proyectoTableAdapter = New SAE_Principal.ERP_SAEDataSetTableAdapters.tbl_sae_proyectoTableAdapter()
+        Me.TableAdapterManager = New SAE_Principal.ERP_SAEDataSetTableAdapters.TableAdapterManager()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ERP_SAEDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Tbl_sae_proyectoBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -218,11 +225,39 @@ Partial Class CrearUsuario
         Me.PictureBox1.TabIndex = 20
         Me.PictureBox1.TabStop = False
         '
+        'ERP_SAEDataSet
+        '
+        Me.ERP_SAEDataSet.DataSetName = "ERP_SAEDataSet"
+        Me.ERP_SAEDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Tbl_sae_proyectoBindingSource
+        '
+        Me.Tbl_sae_proyectoBindingSource.DataMember = "tbl_sae_proyecto"
+        Me.Tbl_sae_proyectoBindingSource.DataSource = Me.ERP_SAEDataSet
+        '
+        'Tbl_sae_proyectoTableAdapter
+        '
+        Me.Tbl_sae_proyectoTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.tbl_sae_abonoTableAdapter = Nothing
+        Me.TableAdapterManager.tbl_sae_clienteTableAdapter = Nothing
+        Me.TableAdapterManager.tbl_sae_creditoTableAdapter = Nothing
+        Me.TableAdapterManager.tbl_sae_documentosTableAdapter = Nothing
+        Me.TableAdapterManager.tbl_sae_empresaTableAdapter = Nothing
+        Me.TableAdapterManager.tbl_sae_estadoTableAdapter = Nothing
+        Me.TableAdapterManager.tbl_sae_facturaTableAdapter = Nothing
+        Me.TableAdapterManager.tbl_sae_proyectoTableAdapter = Me.Tbl_sae_proyectoTableAdapter
+        Me.TableAdapterManager.tbl_sae_saldoTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = SAE_Principal.ERP_SAEDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        '
         'CrearUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(572, 343)
+        Me.ClientSize = New System.Drawing.Size(708, 343)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.bt_cancelar)
         Me.Controls.Add(Me.bt_crear)
@@ -247,6 +282,8 @@ Partial Class CrearUsuario
         Me.Name = "CrearUsuario"
         Me.Text = "CrearUsuario"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ERP_SAEDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Tbl_sae_proyectoBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -273,4 +310,8 @@ Partial Class CrearUsuario
     Friend WithEvents bt_crear As Button
     Friend WithEvents bt_cancelar As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ERP_SAEDataSet As ERP_SAEDataSet
+    Friend WithEvents Tbl_sae_proyectoBindingSource As BindingSource
+    Friend WithEvents Tbl_sae_proyectoTableAdapter As ERP_SAEDataSetTableAdapters.tbl_sae_proyectoTableAdapter
+    Friend WithEvents TableAdapterManager As ERP_SAEDataSetTableAdapters.TableAdapterManager
 End Class

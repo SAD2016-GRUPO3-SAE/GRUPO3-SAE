@@ -20,7 +20,6 @@ C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\Programación\SAE_Principal\SAE_Princip
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\Programación\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.exe
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\Programación\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.pdb
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\Programación\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.xml
-C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.vbprojResolveAssemblyReference.cache
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.BuscarCuenta.resources
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.CrearCuenta.resources
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.CrearUsuario.resources
