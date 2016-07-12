@@ -1,0 +1,30 @@
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.exe.config
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.exe
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.pdb
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.xml
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.vbprojResolveAssemblyReference.cache
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.Form1.resources
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.Resources.resources
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.vbproj.GenerateResource.Cache
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.exe
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.xml
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.pdb
+c:\users\xavruiz\documents\visual studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.MDISAE.resources
+C:\Users\XavRuiz\Documents\Visual Studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.CrearCuenta.resources
+C:\Users\XavRuiz\Documents\Visual Studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.BuscarCuenta.resources
+C:\Users\XavRuiz\Documents\Visual Studio 2015\Projects\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.CrearUsuario.resources
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.exe.config
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.exe
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.xml
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.pdb
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.exe
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.pdb
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\bin\Debug\SAE_Principal.xml
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.vbprojResolveAssemblyReference.cache
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.BuscarCuenta.resources
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.CrearCuenta.resources
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.CrearUsuario.resources
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.Form1.resources
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.MDISAE.resources
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.Resources.resources
+D:\Seminario\Analisis y Diseño\SAD-SAE-2016\Javier Ruiz\Programación\SAE_Principal\SAE_Principal\obj\Debug\SAE_Principal.vbproj.GenerateResource.Cache
