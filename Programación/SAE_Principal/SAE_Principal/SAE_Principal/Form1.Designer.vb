@@ -46,6 +46,7 @@ Partial Class Form1
         Me.PasswordTextBox.Name = "PasswordTextBox"
         Me.PasswordTextBox.Size = New System.Drawing.Size(100, 20)
         Me.PasswordTextBox.TabIndex = 1
+        Me.PasswordTextBox.UseSystemPasswordChar = True
         '
         'BOTONOK
         '

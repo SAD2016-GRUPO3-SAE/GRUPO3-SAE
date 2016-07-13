@@ -27,12 +27,38 @@ Partial Class MDISAE
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CambiarDeEmpresaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CatalogoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UsuariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SociosDeNegocioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BodegasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ArticulsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VentasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CuentasPorCobrarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CrearCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditarCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CotizaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PedidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FacturasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProveedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CotizaciónToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OrdenDeCompraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ComprasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotasDeCreditoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InventarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IngresosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EgresosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListadoDeSociosDeNegocioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListadoDeFacturasVentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListadoDeBodegasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListadoDeArticulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CuentasPorCobrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CrearCuentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditarCuentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarCuentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BuscarCuentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -40,7 +66,8 @@ Partial Class MDISAE
         '
         Me.Panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel1.Location = New System.Drawing.Point(0, 354)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Panel1.Location = New System.Drawing.Point(0, 353)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Panel1.Size = New System.Drawing.Size(908, 76)
@@ -48,7 +75,7 @@ Partial Class MDISAE
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.VentasToolStripMenuItem, Me.CuentasPorCobrarToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.CatalogoToolStripMenuItem, Me.ProcesosToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.AyudaToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(908, 24)
@@ -70,46 +97,213 @@ Partial Class MDISAE
         '
         'SalirToolStripMenuItem
         '
+        Me.SalirToolStripMenuItem.Image = Global.SAE_Principal.My.Resources.Resources.inside
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
-        'VentasToolStripMenuItem
+        'CatalogoToolStripMenuItem
         '
-        Me.VentasToolStripMenuItem.Name = "VentasToolStripMenuItem"
-        Me.VentasToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
-        Me.VentasToolStripMenuItem.Text = "Ventas"
+        Me.CatalogoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuariosToolStripMenuItem, Me.SociosDeNegocioToolStripMenuItem, Me.BodegasToolStripMenuItem, Me.ArticulsToolStripMenuItem, Me.InventarioToolStripMenuItem})
+        Me.CatalogoToolStripMenuItem.Name = "CatalogoToolStripMenuItem"
+        Me.CatalogoToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
+        Me.CatalogoToolStripMenuItem.Text = "Catalogos"
+        '
+        'UsuariosToolStripMenuItem
+        '
+        Me.UsuariosToolStripMenuItem.Name = "UsuariosToolStripMenuItem"
+        Me.UsuariosToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.UsuariosToolStripMenuItem.Text = "Usuarios"
+        '
+        'SociosDeNegocioToolStripMenuItem
+        '
+        Me.SociosDeNegocioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BToolStripMenuItem})
+        Me.SociosDeNegocioToolStripMenuItem.Name = "SociosDeNegocioToolStripMenuItem"
+        Me.SociosDeNegocioToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.SociosDeNegocioToolStripMenuItem.Text = "Socios de Negocio"
+        '
+        'BToolStripMenuItem
+        '
+        Me.BToolStripMenuItem.Name = "BToolStripMenuItem"
+        Me.BToolStripMenuItem.Size = New System.Drawing.Size(81, 22)
+        Me.BToolStripMenuItem.Text = "B"
+        '
+        'BodegasToolStripMenuItem
+        '
+        Me.BodegasToolStripMenuItem.Name = "BodegasToolStripMenuItem"
+        Me.BodegasToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.BodegasToolStripMenuItem.Text = "Bodegas"
+        '
+        'ArticulsToolStripMenuItem
+        '
+        Me.ArticulsToolStripMenuItem.Name = "ArticulsToolStripMenuItem"
+        Me.ArticulsToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.ArticulsToolStripMenuItem.Text = "Articuls"
+        '
+        'ProcesosToolStripMenuItem
+        '
+        Me.ProcesosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VentasToolStripMenuItem1, Me.CuentasPorCobrarToolStripMenuItem1, Me.ComprasToolStripMenuItem, Me.ProveedoresToolStripMenuItem})
+        Me.ProcesosToolStripMenuItem.Name = "ProcesosToolStripMenuItem"
+        Me.ProcesosToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
+        Me.ProcesosToolStripMenuItem.Text = "Procesos"
+        '
+        'VentasToolStripMenuItem1
+        '
+        Me.VentasToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CotizaciónToolStripMenuItem, Me.PedidoToolStripMenuItem, Me.FacturasToolStripMenuItem})
+        Me.VentasToolStripMenuItem1.Name = "VentasToolStripMenuItem1"
+        Me.VentasToolStripMenuItem1.Size = New System.Drawing.Size(177, 22)
+        Me.VentasToolStripMenuItem1.Text = "Ventas"
+        '
+        'CuentasPorCobrarToolStripMenuItem1
+        '
+        Me.CuentasPorCobrarToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearCuentaToolStripMenuItem1, Me.EditarCuentaToolStripMenuItem1, Me.EliminarCuentaToolStripMenuItem1, Me.BuscarCuentaToolStripMenuItem1})
+        Me.CuentasPorCobrarToolStripMenuItem1.Name = "CuentasPorCobrarToolStripMenuItem1"
+        Me.CuentasPorCobrarToolStripMenuItem1.Size = New System.Drawing.Size(177, 22)
+        Me.CuentasPorCobrarToolStripMenuItem1.Text = "Cuentas por Cobrar"
+        '
+        'CrearCuentaToolStripMenuItem1
+        '
+        Me.CrearCuentaToolStripMenuItem1.Image = Global.SAE_Principal.My.Resources.Resources.contactbook
+        Me.CrearCuentaToolStripMenuItem1.Name = "CrearCuentaToolStripMenuItem1"
+        Me.CrearCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.CrearCuentaToolStripMenuItem1.Text = "Crear Cuenta"
+        '
+        'EditarCuentaToolStripMenuItem1
+        '
+        Me.EditarCuentaToolStripMenuItem1.Name = "EditarCuentaToolStripMenuItem1"
+        Me.EditarCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.EditarCuentaToolStripMenuItem1.Text = "Editar Cuenta"
+        '
+        'EliminarCuentaToolStripMenuItem1
+        '
+        Me.EliminarCuentaToolStripMenuItem1.Name = "EliminarCuentaToolStripMenuItem1"
+        Me.EliminarCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.EliminarCuentaToolStripMenuItem1.Text = "Eliminar Cuenta"
+        '
+        'BuscarCuentaToolStripMenuItem1
+        '
+        Me.BuscarCuentaToolStripMenuItem1.Image = Global.SAE_Principal.My.Resources.Resources.find
+        Me.BuscarCuentaToolStripMenuItem1.Name = "BuscarCuentaToolStripMenuItem1"
+        Me.BuscarCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.BuscarCuentaToolStripMenuItem1.Text = "Buscar Cuenta"
+        '
+        'CotizaciónToolStripMenuItem
+        '
+        Me.CotizaciónToolStripMenuItem.Name = "CotizaciónToolStripMenuItem"
+        Me.CotizaciónToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CotizaciónToolStripMenuItem.Text = "Cotización"
+        '
+        'PedidoToolStripMenuItem
+        '
+        Me.PedidoToolStripMenuItem.Name = "PedidoToolStripMenuItem"
+        Me.PedidoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PedidoToolStripMenuItem.Text = "Pedido"
+        '
+        'FacturasToolStripMenuItem
+        '
+        Me.FacturasToolStripMenuItem.Name = "FacturasToolStripMenuItem"
+        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FacturasToolStripMenuItem.Text = "Facturas"
+        '
+        'ComprasToolStripMenuItem
+        '
+        Me.ComprasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CotizaciónToolStripMenuItem1, Me.OrdenDeCompraToolStripMenuItem, Me.ComprasToolStripMenuItem1})
+        Me.ComprasToolStripMenuItem.Name = "ComprasToolStripMenuItem"
+        Me.ComprasToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
+        Me.ComprasToolStripMenuItem.Text = "Compras"
+        '
+        'ProveedoresToolStripMenuItem
+        '
+        Me.ProveedoresToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NotasDeCreditoToolStripMenuItem})
+        Me.ProveedoresToolStripMenuItem.Name = "ProveedoresToolStripMenuItem"
+        Me.ProveedoresToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
+        Me.ProveedoresToolStripMenuItem.Text = "Proveedores"
+        '
+        'CotizaciónToolStripMenuItem1
+        '
+        Me.CotizaciónToolStripMenuItem1.Name = "CotizaciónToolStripMenuItem1"
+        Me.CotizaciónToolStripMenuItem1.Size = New System.Drawing.Size(169, 22)
+        Me.CotizaciónToolStripMenuItem1.Text = "Cotización"
+        '
+        'OrdenDeCompraToolStripMenuItem
+        '
+        Me.OrdenDeCompraToolStripMenuItem.Name = "OrdenDeCompraToolStripMenuItem"
+        Me.OrdenDeCompraToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
+        Me.OrdenDeCompraToolStripMenuItem.Text = "Orden de Compra"
+        '
+        'ComprasToolStripMenuItem1
+        '
+        Me.ComprasToolStripMenuItem1.Name = "ComprasToolStripMenuItem1"
+        Me.ComprasToolStripMenuItem1.Size = New System.Drawing.Size(169, 22)
+        Me.ComprasToolStripMenuItem1.Text = "Compras"
+        '
+        'NotasDeCreditoToolStripMenuItem
+        '
+        Me.NotasDeCreditoToolStripMenuItem.Name = "NotasDeCreditoToolStripMenuItem"
+        Me.NotasDeCreditoToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
+        Me.NotasDeCreditoToolStripMenuItem.Text = "Notas de Credito"
+        '
+        'InventarioToolStripMenuItem
+        '
+        Me.InventarioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresosToolStripMenuItem, Me.EgresosToolStripMenuItem})
+        Me.InventarioToolStripMenuItem.Name = "InventarioToolStripMenuItem"
+        Me.InventarioToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.InventarioToolStripMenuItem.Text = "Inventario"
+        '
+        'IngresosToolStripMenuItem
+        '
+        Me.IngresosToolStripMenuItem.Name = "IngresosToolStripMenuItem"
+        Me.IngresosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IngresosToolStripMenuItem.Text = "Ingresos"
+        '
+        'EgresosToolStripMenuItem
+        '
+        Me.EgresosToolStripMenuItem.Name = "EgresosToolStripMenuItem"
+        Me.EgresosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EgresosToolStripMenuItem.Text = "Egresos"
+        '
+        'ReportesToolStripMenuItem
+        '
+        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ListadoDeSociosDeNegocioToolStripMenuItem, Me.ListadoDeFacturasVentasToolStripMenuItem, Me.ListadoDeBodegasToolStripMenuItem, Me.ListadoDeArticulosToolStripMenuItem, Me.CuentasPorCobrarToolStripMenuItem})
+        Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
+        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
+        Me.ReportesToolStripMenuItem.Text = "Reportes"
+        '
+        'ListadoDeSociosDeNegocioToolStripMenuItem
+        '
+        Me.ListadoDeSociosDeNegocioToolStripMenuItem.Name = "ListadoDeSociosDeNegocioToolStripMenuItem"
+        Me.ListadoDeSociosDeNegocioToolStripMenuItem.Size = New System.Drawing.Size(229, 22)
+        Me.ListadoDeSociosDeNegocioToolStripMenuItem.Text = "Listado de Socios de Negocio"
+        '
+        'ListadoDeFacturasVentasToolStripMenuItem
+        '
+        Me.ListadoDeFacturasVentasToolStripMenuItem.Name = "ListadoDeFacturasVentasToolStripMenuItem"
+        Me.ListadoDeFacturasVentasToolStripMenuItem.Size = New System.Drawing.Size(229, 22)
+        Me.ListadoDeFacturasVentasToolStripMenuItem.Text = "Listado de Facturas Ventas"
+        '
+        'ListadoDeBodegasToolStripMenuItem
+        '
+        Me.ListadoDeBodegasToolStripMenuItem.Name = "ListadoDeBodegasToolStripMenuItem"
+        Me.ListadoDeBodegasToolStripMenuItem.Size = New System.Drawing.Size(229, 22)
+        Me.ListadoDeBodegasToolStripMenuItem.Text = "Listado de Bodegas"
+        '
+        'ListadoDeArticulosToolStripMenuItem
+        '
+        Me.ListadoDeArticulosToolStripMenuItem.Name = "ListadoDeArticulosToolStripMenuItem"
+        Me.ListadoDeArticulosToolStripMenuItem.Size = New System.Drawing.Size(229, 22)
+        Me.ListadoDeArticulosToolStripMenuItem.Text = "Listado de Articulos"
         '
         'CuentasPorCobrarToolStripMenuItem
         '
-        Me.CuentasPorCobrarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearCuentaToolStripMenuItem, Me.EditarCuentaToolStripMenuItem, Me.EliminarCuentaToolStripMenuItem, Me.BuscarCuentaToolStripMenuItem})
         Me.CuentasPorCobrarToolStripMenuItem.Name = "CuentasPorCobrarToolStripMenuItem"
-        Me.CuentasPorCobrarToolStripMenuItem.Size = New System.Drawing.Size(122, 20)
+        Me.CuentasPorCobrarToolStripMenuItem.Size = New System.Drawing.Size(229, 22)
         Me.CuentasPorCobrarToolStripMenuItem.Text = "Cuentas por Cobrar"
         '
-        'CrearCuentaToolStripMenuItem
+        'AyudaToolStripMenuItem
         '
-        Me.CrearCuentaToolStripMenuItem.Name = "CrearCuentaToolStripMenuItem"
-        Me.CrearCuentaToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
-        Me.CrearCuentaToolStripMenuItem.Text = "Crear cuenta"
-        '
-        'EditarCuentaToolStripMenuItem
-        '
-        Me.EditarCuentaToolStripMenuItem.Name = "EditarCuentaToolStripMenuItem"
-        Me.EditarCuentaToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
-        Me.EditarCuentaToolStripMenuItem.Text = "Editar Cuenta"
-        '
-        'EliminarCuentaToolStripMenuItem
-        '
-        Me.EliminarCuentaToolStripMenuItem.Name = "EliminarCuentaToolStripMenuItem"
-        Me.EliminarCuentaToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
-        Me.EliminarCuentaToolStripMenuItem.Text = "Eliminar Cuenta"
-        '
-        'BuscarCuentaToolStripMenuItem
-        '
-        Me.BuscarCuentaToolStripMenuItem.Name = "BuscarCuentaToolStripMenuItem"
-        Me.BuscarCuentaToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
-        Me.BuscarCuentaToolStripMenuItem.Text = "Buscar Cuenta"
+        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.AyudaToolStripMenuItem.Text = "Ayuda"
         '
         'MDISAE
         '
@@ -130,13 +324,39 @@ Partial Class MDISAE
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents VentasToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CuentasPorCobrarToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents BuscarCuentaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CrearCuentaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EditarCuentaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EliminarCuentaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CambiarDeEmpresaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CatalogoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents UsuariosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SociosDeNegocioToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BodegasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ArticulsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ProcesosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VentasToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents CuentasPorCobrarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents CrearCuentaToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents EditarCuentaToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents EliminarCuentaToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents BuscarCuentaToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents InventarioToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents IngresosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EgresosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CotizaciónToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PedidoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FacturasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ComprasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CotizaciónToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents OrdenDeCompraToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ComprasToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ProveedoresToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NotasDeCreditoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ReportesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ListadoDeSociosDeNegocioToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ListadoDeFacturasVentasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ListadoDeBodegasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ListadoDeArticulosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CuentasPorCobrarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AyudaToolStripMenuItem As ToolStripMenuItem
 End Class

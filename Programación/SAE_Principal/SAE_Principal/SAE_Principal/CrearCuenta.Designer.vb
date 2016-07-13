@@ -264,6 +264,7 @@ Partial Class CrearCuenta
         '
         'Panel1
         '
+        Me.Panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Panel1.Controls.Add(Me.PictureBox2)
         Me.Panel1.Location = New System.Drawing.Point(2, 453)

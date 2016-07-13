@@ -4,10 +4,6 @@
 
     End Sub
 
-    Private Sub CrearCuentaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearCuentaToolStripMenuItem.Click
-        CrearCuenta.Show()
-    End Sub
-
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub
@@ -16,11 +12,27 @@
         End
     End Sub
 
-    Private Sub BuscarCuentaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BuscarCuentaToolStripMenuItem.Click
+    Private Sub BuscarCuentaToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub CuentasPorCobrarToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub CatalogoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CatalogoToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub CrearCuentaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles CrearCuentaToolStripMenuItem1.Click
+        CrearCuenta.Show()
+    End Sub
+
+    Private Sub BuscarCuentaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles BuscarCuentaToolStripMenuItem1.Click
         BuscarCuenta.Show()
     End Sub
 
-    Private Sub CuentasPorCobrarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CuentasPorCobrarToolStripMenuItem.Click
+    Private Sub EditarCuentaToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class
