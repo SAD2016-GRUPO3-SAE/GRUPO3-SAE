@@ -1,6 +1,9 @@
 ﻿Public Class MDISAE
     Private Sub MDISAE_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Dim Fondo As New FondoSAE
+        Fondo.MdiParent = Me
+        Fondo.Dock = DockStyle.Fill
+        Fondo.Show()
 
     End Sub
 

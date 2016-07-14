@@ -94,6 +94,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="datos.vb" />
+    <Compile Include="FondoSAE.Designer.vb">
+      <DependentUpon>FondoSAE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FondoSAE.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrearUsuario.resx">
       <DependentUpon>CrearUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FondoSAE.resx">
+      <DependentUpon>FondoSAE.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -179,6 +188,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\contactbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoSAE.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
