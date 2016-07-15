@@ -79,6 +79,12 @@
     <Compile Include="BuscarCuenta.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="caja.Designer.vb">
+      <DependentUpon>caja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="caja.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="comandodb.vb" />
     <Compile Include="conexion.vb" />
     <Compile Include="CrearCuenta.Designer.vb">
@@ -133,6 +139,9 @@
   <ItemGroup>
     <EmbeddedResource Include="BuscarCuenta.resx">
       <DependentUpon>BuscarCuenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="caja.resx">
+      <DependentUpon>caja.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CrearCuenta.resx">
       <DependentUpon>CrearCuenta.vb</DependentUpon>

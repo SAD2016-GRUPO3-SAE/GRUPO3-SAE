@@ -38,4 +38,8 @@
     Private Sub EditarCuentaToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub CrearToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearToolStripMenuItem.Click
+        CrearUsuario.Show()
+    End Sub
 End Class

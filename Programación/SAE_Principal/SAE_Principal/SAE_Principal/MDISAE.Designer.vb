@@ -59,6 +59,9 @@ Partial Class MDISAE
         Me.ListadoDeArticulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CuentasPorCobrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CrearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -111,6 +114,7 @@ Partial Class MDISAE
         '
         'UsuariosToolStripMenuItem
         '
+        Me.UsuariosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearToolStripMenuItem, Me.EliminarToolStripMenuItem, Me.ModificarToolStripMenuItem})
         Me.UsuariosToolStripMenuItem.Name = "UsuariosToolStripMenuItem"
         Me.UsuariosToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.UsuariosToolStripMenuItem.Text = "Usuarios"
@@ -305,6 +309,24 @@ Partial Class MDISAE
         Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.AyudaToolStripMenuItem.Text = "Ayuda"
         '
+        'CrearToolStripMenuItem
+        '
+        Me.CrearToolStripMenuItem.Name = "CrearToolStripMenuItem"
+        Me.CrearToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CrearToolStripMenuItem.Text = "Crear"
+        '
+        'EliminarToolStripMenuItem
+        '
+        Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
+        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EliminarToolStripMenuItem.Text = "Eliminar"
+        '
+        'ModificarToolStripMenuItem
+        '
+        Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
+        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ModificarToolStripMenuItem.Text = "Modificar"
+        '
         'MDISAE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -360,4 +382,7 @@ Partial Class MDISAE
     Friend WithEvents ListadoDeArticulosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CuentasPorCobrarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AyudaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CrearToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EliminarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ModificarToolStripMenuItem As ToolStripMenuItem
 End Class

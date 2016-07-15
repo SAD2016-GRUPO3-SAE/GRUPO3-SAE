@@ -42,6 +42,11 @@ SAE_Principal
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SAE_Principal.My.Resources.Resources.FondoSAE">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SAE_Principal.My.Resources.Resources.inside">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
