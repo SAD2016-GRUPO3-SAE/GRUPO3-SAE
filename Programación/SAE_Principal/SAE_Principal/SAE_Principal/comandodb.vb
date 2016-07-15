@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Module comandodb
-    Public conectar As New SqlConnection("Server=Xavi-Ruiz\SQLEXPRESS;Database=ERP_SAE;Trusted_Connection=True")
+    Public conectar As New SqlConnection("Server=Xavi-Ruiz\SQLEXPRESS;Database=SAEDB;Trusted_Connection=True")
     Public consulta As New SqlCommand
     Public datos As New DataSet
     Public variable As SqlDataReader

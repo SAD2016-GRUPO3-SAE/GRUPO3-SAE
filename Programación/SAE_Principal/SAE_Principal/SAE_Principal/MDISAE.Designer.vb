@@ -62,6 +62,7 @@ Partial Class MDISAE
         Me.CrearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CajaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -165,7 +166,7 @@ Partial Class MDISAE
         '
         'ProcesosToolStripMenuItem
         '
-        Me.ProcesosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VentasToolStripMenuItem1, Me.CuentasPorCobrarToolStripMenuItem1, Me.ComprasToolStripMenuItem, Me.ProveedoresToolStripMenuItem})
+        Me.ProcesosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CajaToolStripMenuItem, Me.VentasToolStripMenuItem1, Me.CuentasPorCobrarToolStripMenuItem1, Me.ComprasToolStripMenuItem, Me.ProveedoresToolStripMenuItem})
         Me.ProcesosToolStripMenuItem.Name = "ProcesosToolStripMenuItem"
         Me.ProcesosToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.ProcesosToolStripMenuItem.Text = "Procesos"
@@ -327,6 +328,12 @@ Partial Class MDISAE
         Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ModificarToolStripMenuItem.Text = "Modificar"
         '
+        'CajaToolStripMenuItem
+        '
+        Me.CajaToolStripMenuItem.Name = "CajaToolStripMenuItem"
+        Me.CajaToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
+        Me.CajaToolStripMenuItem.Text = "Caja"
+        '
         'MDISAE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -385,4 +392,5 @@ Partial Class MDISAE
     Friend WithEvents CrearToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EliminarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ModificarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CajaToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -12,7 +12,7 @@ Public Class funciones
             cmd.CommandType = CommandType.StoredProcedure
             cmd.Connection = con
             cmd.Parameters.AddWithValue("@usuario", dat.nomusuario)
-            cmd.Parameters.AddWithValue("@contraseña", dat.passusuario)
+            cmd.Parameters.AddWithValue("@password", dat.passusuario)
             Dim dr As SqlDataReader
             dr = cmd.ExecuteReader
             If dr.HasRows = True Then

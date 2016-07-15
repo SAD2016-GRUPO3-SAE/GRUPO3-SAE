@@ -42,4 +42,8 @@
     Private Sub CrearToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearToolStripMenuItem.Click
         CrearUsuario.Show()
     End Sub
+
+    Private Sub CajaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CajaToolStripMenuItem.Click
+        caja.Show()
+    End Sub
 End Class

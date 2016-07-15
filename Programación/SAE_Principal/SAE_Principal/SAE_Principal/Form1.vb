@@ -40,4 +40,8 @@ Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         CrearUsuario.Show()
     End Sub
+
+    Private Sub UsernameTextBox_TextChanged(sender As Object, e As EventArgs) Handles UsernameTextBox.TextChanged
+
+    End Sub
 End Class

@@ -31,15 +31,15 @@ Partial Class CrearUsuario
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.usuario = New System.Windows.Forms.TextBox()
+        Me.password = New System.Windows.Forms.TextBox()
+        Me.nomuno = New System.Windows.Forms.TextBox()
+        Me.nomdos = New System.Windows.Forms.TextBox()
+        Me.apeuno = New System.Windows.Forms.TextBox()
+        Me.apedos = New System.Windows.Forms.TextBox()
+        Me.dir = New System.Windows.Forms.TextBox()
+        Me.tel = New System.Windows.Forms.TextBox()
+        Me.mail = New System.Windows.Forms.TextBox()
         Me.bt_crear = New System.Windows.Forms.Button()
         Me.bt_cancelar = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -49,7 +49,7 @@ Partial Class CrearUsuario
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(287, 39)
+        Me.Label1.Location = New System.Drawing.Point(69, 37)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(46, 13)
         Me.Label1.TabIndex = 0
@@ -58,7 +58,7 @@ Partial Class CrearUsuario
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(269, 68)
+        Me.Label2.Location = New System.Drawing.Point(51, 66)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(64, 13)
         Me.Label2.TabIndex = 1
@@ -67,7 +67,7 @@ Partial Class CrearUsuario
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(254, 106)
+        Me.Label3.Location = New System.Drawing.Point(36, 104)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(79, 13)
         Me.Label3.TabIndex = 2
@@ -76,7 +76,7 @@ Partial Class CrearUsuario
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(240, 132)
+        Me.Label4.Location = New System.Drawing.Point(22, 130)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(93, 13)
         Me.Label4.TabIndex = 3
@@ -85,7 +85,7 @@ Partial Class CrearUsuario
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(254, 158)
+        Me.Label5.Location = New System.Drawing.Point(36, 156)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(79, 13)
         Me.Label5.TabIndex = 4
@@ -94,7 +94,7 @@ Partial Class CrearUsuario
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(240, 184)
+        Me.Label6.Location = New System.Drawing.Point(22, 182)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(93, 13)
         Me.Label6.TabIndex = 5
@@ -103,7 +103,7 @@ Partial Class CrearUsuario
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(278, 210)
+        Me.Label7.Location = New System.Drawing.Point(60, 208)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(55, 13)
         Me.Label7.TabIndex = 6
@@ -112,7 +112,7 @@ Partial Class CrearUsuario
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(281, 236)
+        Me.Label8.Location = New System.Drawing.Point(63, 234)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(52, 13)
         Me.Label8.TabIndex = 7
@@ -121,78 +121,78 @@ Partial Class CrearUsuario
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(237, 262)
+        Me.Label9.Location = New System.Drawing.Point(19, 260)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(96, 13)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "Correo electrónico:"
         '
-        'TextBox1
+        'usuario
         '
-        Me.TextBox1.Location = New System.Drawing.Point(365, 36)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 9
+        Me.usuario.Location = New System.Drawing.Point(147, 34)
+        Me.usuario.Name = "usuario"
+        Me.usuario.Size = New System.Drawing.Size(100, 20)
+        Me.usuario.TabIndex = 9
         '
-        'TextBox2
+        'password
         '
-        Me.TextBox2.Location = New System.Drawing.Point(365, 65)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 10
+        Me.password.Location = New System.Drawing.Point(147, 63)
+        Me.password.Name = "password"
+        Me.password.Size = New System.Drawing.Size(100, 20)
+        Me.password.TabIndex = 10
         '
-        'TextBox3
+        'nomuno
         '
-        Me.TextBox3.Location = New System.Drawing.Point(365, 103)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 11
+        Me.nomuno.Location = New System.Drawing.Point(147, 101)
+        Me.nomuno.Name = "nomuno"
+        Me.nomuno.Size = New System.Drawing.Size(100, 20)
+        Me.nomuno.TabIndex = 11
         '
-        'TextBox4
+        'nomdos
         '
-        Me.TextBox4.Location = New System.Drawing.Point(365, 129)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 12
+        Me.nomdos.Location = New System.Drawing.Point(147, 127)
+        Me.nomdos.Name = "nomdos"
+        Me.nomdos.Size = New System.Drawing.Size(100, 20)
+        Me.nomdos.TabIndex = 12
         '
-        'TextBox5
+        'apeuno
         '
-        Me.TextBox5.Location = New System.Drawing.Point(365, 155)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 13
+        Me.apeuno.Location = New System.Drawing.Point(147, 153)
+        Me.apeuno.Name = "apeuno"
+        Me.apeuno.Size = New System.Drawing.Size(100, 20)
+        Me.apeuno.TabIndex = 13
         '
-        'TextBox6
+        'apedos
         '
-        Me.TextBox6.Location = New System.Drawing.Point(365, 181)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox6.TabIndex = 14
+        Me.apedos.Location = New System.Drawing.Point(147, 179)
+        Me.apedos.Name = "apedos"
+        Me.apedos.Size = New System.Drawing.Size(100, 20)
+        Me.apedos.TabIndex = 14
         '
-        'TextBox7
+        'dir
         '
-        Me.TextBox7.Location = New System.Drawing.Point(365, 207)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox7.TabIndex = 15
+        Me.dir.Location = New System.Drawing.Point(147, 205)
+        Me.dir.Name = "dir"
+        Me.dir.Size = New System.Drawing.Size(100, 20)
+        Me.dir.TabIndex = 15
         '
-        'TextBox8
+        'tel
         '
-        Me.TextBox8.Location = New System.Drawing.Point(365, 233)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox8.TabIndex = 16
+        Me.tel.Location = New System.Drawing.Point(147, 231)
+        Me.tel.Name = "tel"
+        Me.tel.Size = New System.Drawing.Size(100, 20)
+        Me.tel.TabIndex = 16
         '
-        'TextBox9
+        'mail
         '
-        Me.TextBox9.Location = New System.Drawing.Point(365, 259)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox9.TabIndex = 17
+        Me.mail.Location = New System.Drawing.Point(147, 257)
+        Me.mail.Name = "mail"
+        Me.mail.Size = New System.Drawing.Size(100, 20)
+        Me.mail.TabIndex = 17
         '
         'bt_crear
         '
-        Me.bt_crear.Location = New System.Drawing.Point(365, 294)
+        Me.bt_crear.Location = New System.Drawing.Point(147, 292)
         Me.bt_crear.Name = "bt_crear"
         Me.bt_crear.Size = New System.Drawing.Size(75, 23)
         Me.bt_crear.TabIndex = 18
@@ -201,7 +201,7 @@ Partial Class CrearUsuario
         '
         'bt_cancelar
         '
-        Me.bt_cancelar.Location = New System.Drawing.Point(446, 294)
+        Me.bt_cancelar.Location = New System.Drawing.Point(228, 292)
         Me.bt_cancelar.Name = "bt_cancelar"
         Me.bt_cancelar.Size = New System.Drawing.Size(75, 23)
         Me.bt_cancelar.TabIndex = 19
@@ -211,7 +211,7 @@ Partial Class CrearUsuario
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.SAE_Principal.My.Resources.Resources.contactbook
-        Me.PictureBox1.Location = New System.Drawing.Point(7, 39)
+        Me.PictureBox1.Location = New System.Drawing.Point(308, 33)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(227, 214)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -226,15 +226,15 @@ Partial Class CrearUsuario
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.bt_cancelar)
         Me.Controls.Add(Me.bt_crear)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.mail)
+        Me.Controls.Add(Me.tel)
+        Me.Controls.Add(Me.dir)
+        Me.Controls.Add(Me.apedos)
+        Me.Controls.Add(Me.apeuno)
+        Me.Controls.Add(Me.nomdos)
+        Me.Controls.Add(Me.nomuno)
+        Me.Controls.Add(Me.password)
+        Me.Controls.Add(Me.usuario)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -261,15 +261,15 @@ Partial Class CrearUsuario
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents usuario As TextBox
+    Friend WithEvents password As TextBox
+    Friend WithEvents nomuno As TextBox
+    Friend WithEvents nomdos As TextBox
+    Friend WithEvents apeuno As TextBox
+    Friend WithEvents apedos As TextBox
+    Friend WithEvents dir As TextBox
+    Friend WithEvents tel As TextBox
+    Friend WithEvents mail As TextBox
     Friend WithEvents bt_crear As Button
     Friend WithEvents bt_cancelar As Button
     Friend WithEvents PictureBox1 As PictureBox
