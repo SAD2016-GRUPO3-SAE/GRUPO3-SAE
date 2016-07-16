@@ -27,6 +27,11 @@ SAE_Principal
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SAE_Principal.My.Resources.Resources.close2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SAE_Principal.My.Resources.Resources.contactbook">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.

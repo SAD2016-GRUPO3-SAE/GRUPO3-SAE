@@ -22,13 +22,14 @@ Partial Class MDISAE
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CambiarDeEmpresaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CatalogoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UsuariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CrearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SociosDeNegocioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BodegasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -37,15 +38,14 @@ Partial Class MDISAE
         Me.IngresosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EgresosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CajaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.CotizaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PedidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FacturasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CuentasPorCobrarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CrearCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditarCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EliminarCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BuscarCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CotizaciónToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.OrdenDeCompraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -59,23 +59,12 @@ Partial Class MDISAE
         Me.ListadoDeArticulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CuentasPorCobrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CrearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CajaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CrearCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CambiarUsuarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Panel1
-        '
-        Me.Panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 353)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Panel1.Size = New System.Drawing.Size(908, 76)
-        Me.Panel1.TabIndex = 0
         '
         'MenuStrip1
         '
@@ -88,7 +77,7 @@ Partial Class MDISAE
         '
         'ArchivoToolStripMenuItem
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CambiarDeEmpresaToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CambiarUsuarioToolStripMenuItem, Me.CambiarDeEmpresaToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
@@ -98,13 +87,6 @@ Partial Class MDISAE
         Me.CambiarDeEmpresaToolStripMenuItem.Name = "CambiarDeEmpresaToolStripMenuItem"
         Me.CambiarDeEmpresaToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
         Me.CambiarDeEmpresaToolStripMenuItem.Text = "Cambiar de Empresa"
-        '
-        'SalirToolStripMenuItem
-        '
-        Me.SalirToolStripMenuItem.Image = Global.SAE_Principal.My.Resources.Resources.inside
-        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
-        Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'CatalogoToolStripMenuItem
         '
@@ -119,6 +101,24 @@ Partial Class MDISAE
         Me.UsuariosToolStripMenuItem.Name = "UsuariosToolStripMenuItem"
         Me.UsuariosToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.UsuariosToolStripMenuItem.Text = "Usuarios"
+        '
+        'CrearToolStripMenuItem
+        '
+        Me.CrearToolStripMenuItem.Name = "CrearToolStripMenuItem"
+        Me.CrearToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
+        Me.CrearToolStripMenuItem.Text = "Crear"
+        '
+        'EliminarToolStripMenuItem
+        '
+        Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
+        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
+        Me.EliminarToolStripMenuItem.Text = "Eliminar"
+        '
+        'ModificarToolStripMenuItem
+        '
+        Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
+        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
+        Me.ModificarToolStripMenuItem.Text = "Modificar"
         '
         'SociosDeNegocioToolStripMenuItem
         '
@@ -171,6 +171,12 @@ Partial Class MDISAE
         Me.ProcesosToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.ProcesosToolStripMenuItem.Text = "Procesos"
         '
+        'CajaToolStripMenuItem
+        '
+        Me.CajaToolStripMenuItem.Name = "CajaToolStripMenuItem"
+        Me.CajaToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
+        Me.CajaToolStripMenuItem.Text = "Caja"
+        '
         'VentasToolStripMenuItem1
         '
         Me.VentasToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CotizaciónToolStripMenuItem, Me.PedidoToolStripMenuItem, Me.FacturasToolStripMenuItem})
@@ -203,13 +209,6 @@ Partial Class MDISAE
         Me.CuentasPorCobrarToolStripMenuItem1.Size = New System.Drawing.Size(177, 22)
         Me.CuentasPorCobrarToolStripMenuItem1.Text = "Cuentas por Cobrar"
         '
-        'CrearCuentaToolStripMenuItem1
-        '
-        Me.CrearCuentaToolStripMenuItem1.Image = Global.SAE_Principal.My.Resources.Resources.contactbook
-        Me.CrearCuentaToolStripMenuItem1.Name = "CrearCuentaToolStripMenuItem1"
-        Me.CrearCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
-        Me.CrearCuentaToolStripMenuItem1.Text = "Crear Cuenta"
-        '
         'EditarCuentaToolStripMenuItem1
         '
         Me.EditarCuentaToolStripMenuItem1.Name = "EditarCuentaToolStripMenuItem1"
@@ -221,13 +220,6 @@ Partial Class MDISAE
         Me.EliminarCuentaToolStripMenuItem1.Name = "EliminarCuentaToolStripMenuItem1"
         Me.EliminarCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
         Me.EliminarCuentaToolStripMenuItem1.Text = "Eliminar Cuenta"
-        '
-        'BuscarCuentaToolStripMenuItem1
-        '
-        Me.BuscarCuentaToolStripMenuItem1.Image = Global.SAE_Principal.My.Resources.Resources.find
-        Me.BuscarCuentaToolStripMenuItem1.Name = "BuscarCuentaToolStripMenuItem1"
-        Me.BuscarCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
-        Me.BuscarCuentaToolStripMenuItem1.Text = "Buscar Cuenta"
         '
         'ComprasToolStripMenuItem
         '
@@ -259,7 +251,7 @@ Partial Class MDISAE
         Me.ProveedoresToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NotasDeCreditoToolStripMenuItem})
         Me.ProveedoresToolStripMenuItem.Name = "ProveedoresToolStripMenuItem"
         Me.ProveedoresToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
-        Me.ProveedoresToolStripMenuItem.Text = "Proveedores"
+        Me.ProveedoresToolStripMenuItem.Text = "Cuentas por Pagar"
         '
         'NotasDeCreditoToolStripMenuItem
         '
@@ -310,49 +302,50 @@ Partial Class MDISAE
         Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.AyudaToolStripMenuItem.Text = "Ayuda"
         '
-        'CrearToolStripMenuItem
+        'SalirToolStripMenuItem
         '
-        Me.CrearToolStripMenuItem.Name = "CrearToolStripMenuItem"
-        Me.CrearToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.CrearToolStripMenuItem.Text = "Crear"
+        Me.SalirToolStripMenuItem.Image = Global.SAE_Principal.My.Resources.Resources.inside
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
+        Me.SalirToolStripMenuItem.Text = "Salir"
         '
-        'EliminarToolStripMenuItem
+        'CrearCuentaToolStripMenuItem1
         '
-        Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
-        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.EliminarToolStripMenuItem.Text = "Eliminar"
+        Me.CrearCuentaToolStripMenuItem1.Image = Global.SAE_Principal.My.Resources.Resources.contactbook
+        Me.CrearCuentaToolStripMenuItem1.Name = "CrearCuentaToolStripMenuItem1"
+        Me.CrearCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.CrearCuentaToolStripMenuItem1.Text = "Crear Cuenta"
         '
-        'ModificarToolStripMenuItem
+        'BuscarCuentaToolStripMenuItem1
         '
-        Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
-        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ModificarToolStripMenuItem.Text = "Modificar"
+        Me.BuscarCuentaToolStripMenuItem1.Image = Global.SAE_Principal.My.Resources.Resources.find
+        Me.BuscarCuentaToolStripMenuItem1.Name = "BuscarCuentaToolStripMenuItem1"
+        Me.BuscarCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.BuscarCuentaToolStripMenuItem1.Text = "Buscar Cuenta"
         '
-        'CajaToolStripMenuItem
+        'CambiarUsuarioToolStripMenuItem
         '
-        Me.CajaToolStripMenuItem.Name = "CajaToolStripMenuItem"
-        Me.CajaToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
-        Me.CajaToolStripMenuItem.Text = "Caja"
+        Me.CambiarUsuarioToolStripMenuItem.Name = "CambiarUsuarioToolStripMenuItem"
+        Me.CambiarUsuarioToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
+        Me.CambiarUsuarioToolStripMenuItem.Text = "Cambiar Usuario"
         '
         'MDISAE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(908, 429)
-        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "MDISAE"
         Me.Text = "SAE - Sistema de Administración Empresarial"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CambiarDeEmpresaToolStripMenuItem As ToolStripMenuItem
@@ -393,4 +386,5 @@ Partial Class MDISAE
     Friend WithEvents EliminarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ModificarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CajaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CambiarUsuarioToolStripMenuItem As ToolStripMenuItem
 End Class
