@@ -400,6 +400,7 @@ Partial Class CrearCuenta
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "CrearCuenta"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Crear Cuenta"
         Me.TabControl1.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)

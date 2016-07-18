@@ -34,9 +34,6 @@ Partial Class MDISAE
         Me.BToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BodegasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ArticulsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InventarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.IngresosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EgresosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CajaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -63,6 +60,10 @@ Partial Class MDISAE
         Me.CrearCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarCuentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.CambiarUsuarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InventarioToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IngresosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EgresosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExistenciasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -90,7 +91,7 @@ Partial Class MDISAE
         '
         'CatalogoToolStripMenuItem
         '
-        Me.CatalogoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuariosToolStripMenuItem, Me.SociosDeNegocioToolStripMenuItem, Me.BodegasToolStripMenuItem, Me.ArticulsToolStripMenuItem, Me.InventarioToolStripMenuItem})
+        Me.CatalogoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuariosToolStripMenuItem, Me.SociosDeNegocioToolStripMenuItem, Me.BodegasToolStripMenuItem, Me.ArticulsToolStripMenuItem})
         Me.CatalogoToolStripMenuItem.Name = "CatalogoToolStripMenuItem"
         Me.CatalogoToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
         Me.CatalogoToolStripMenuItem.Text = "Catalogos"
@@ -145,28 +146,9 @@ Partial Class MDISAE
         Me.ArticulsToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.ArticulsToolStripMenuItem.Text = "Articuls"
         '
-        'InventarioToolStripMenuItem
-        '
-        Me.InventarioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresosToolStripMenuItem, Me.EgresosToolStripMenuItem})
-        Me.InventarioToolStripMenuItem.Name = "InventarioToolStripMenuItem"
-        Me.InventarioToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
-        Me.InventarioToolStripMenuItem.Text = "Inventario"
-        '
-        'IngresosToolStripMenuItem
-        '
-        Me.IngresosToolStripMenuItem.Name = "IngresosToolStripMenuItem"
-        Me.IngresosToolStripMenuItem.Size = New System.Drawing.Size(118, 22)
-        Me.IngresosToolStripMenuItem.Text = "Ingresos"
-        '
-        'EgresosToolStripMenuItem
-        '
-        Me.EgresosToolStripMenuItem.Name = "EgresosToolStripMenuItem"
-        Me.EgresosToolStripMenuItem.Size = New System.Drawing.Size(118, 22)
-        Me.EgresosToolStripMenuItem.Text = "Egresos"
-        '
         'ProcesosToolStripMenuItem
         '
-        Me.ProcesosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CajaToolStripMenuItem, Me.VentasToolStripMenuItem1, Me.CuentasPorCobrarToolStripMenuItem1, Me.ComprasToolStripMenuItem, Me.ProveedoresToolStripMenuItem})
+        Me.ProcesosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CajaToolStripMenuItem, Me.VentasToolStripMenuItem1, Me.CuentasPorCobrarToolStripMenuItem1, Me.ComprasToolStripMenuItem, Me.ProveedoresToolStripMenuItem, Me.InventarioToolStripMenuItem1})
         Me.ProcesosToolStripMenuItem.Name = "ProcesosToolStripMenuItem"
         Me.ProcesosToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.ProcesosToolStripMenuItem.Text = "Procesos"
@@ -329,6 +311,31 @@ Partial Class MDISAE
         Me.CambiarUsuarioToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
         Me.CambiarUsuarioToolStripMenuItem.Text = "Cambiar Usuario"
         '
+        'InventarioToolStripMenuItem1
+        '
+        Me.InventarioToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresosToolStripMenuItem1, Me.EgresosToolStripMenuItem1, Me.ExistenciasToolStripMenuItem})
+        Me.InventarioToolStripMenuItem1.Name = "InventarioToolStripMenuItem1"
+        Me.InventarioToolStripMenuItem1.Size = New System.Drawing.Size(177, 22)
+        Me.InventarioToolStripMenuItem1.Text = "Inventario"
+        '
+        'IngresosToolStripMenuItem1
+        '
+        Me.IngresosToolStripMenuItem1.Name = "IngresosToolStripMenuItem1"
+        Me.IngresosToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.IngresosToolStripMenuItem1.Text = "Ingresos"
+        '
+        'EgresosToolStripMenuItem1
+        '
+        Me.EgresosToolStripMenuItem1.Name = "EgresosToolStripMenuItem1"
+        Me.EgresosToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.EgresosToolStripMenuItem1.Text = "Egresos"
+        '
+        'ExistenciasToolStripMenuItem
+        '
+        Me.ExistenciasToolStripMenuItem.Name = "ExistenciasToolStripMenuItem"
+        Me.ExistenciasToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExistenciasToolStripMenuItem.Text = "Existencias"
+        '
         'MDISAE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -363,9 +370,6 @@ Partial Class MDISAE
     Friend WithEvents EditarCuentaToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents EliminarCuentaToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents BuscarCuentaToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents InventarioToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents IngresosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EgresosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CotizaciónToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PedidoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FacturasToolStripMenuItem As ToolStripMenuItem
@@ -387,4 +391,8 @@ Partial Class MDISAE
     Friend WithEvents ModificarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CajaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CambiarUsuarioToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents InventarioToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents IngresosToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents EgresosToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ExistenciasToolStripMenuItem As ToolStripMenuItem
 End Class
