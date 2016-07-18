@@ -17,7 +17,7 @@ Public Class CrearUsuario
 
         Else
             Try
-                Dim cmd As New SqlCommand("insert into tbl_sae_usuario (usu_usuario, usu_password, usu_nom_uno, usu_nom_dos, usu_ape_uno, usu_ape_dos, usu_dir, usu_tel, usu_mail, usu_status) values ('" & usuario.Text & "','" & password.Text & "','" & nomuno.Text & "','" & nomdos.Text & "','" & apeuno.Text & "','" & apedos.Text & "','" & dir.Text & "','" & tel.Text & "','" & mail.Text & "',' 1 ')", conectar)
+                Dim cmd As New SqlCommand("insert into tbl_sae_usuario (usu_usuario, usu_password, usu_nom_uno, usu_nom_dos, usu_ape_uno, usu_ape_dos, usu_dir, usu_tel, usu_mail) values ('" & usuario.Text & "','" & password.Text & "','" & nomuno.Text & "','" & nomdos.Text & "','" & apeuno.Text & "','" & apedos.Text & "','" & dir.Text & "','" & tel.Text & "','" & mail.Text & "')", conectar)
                 Dim cas As Integer
                 conectar.Open()
                 cas = cmd.ExecuteNonQuery
