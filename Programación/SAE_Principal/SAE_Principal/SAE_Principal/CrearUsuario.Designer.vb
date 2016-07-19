@@ -40,10 +40,19 @@ Partial Class CrearUsuario
         Me.dir = New System.Windows.Forms.TextBox()
         Me.tel = New System.Windows.Forms.TextBox()
         Me.mail = New System.Windows.Forms.TextBox()
-        Me.bt_crear = New System.Windows.Forms.Button()
-        Me.bt_cancelar = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -190,24 +199,6 @@ Partial Class CrearUsuario
         Me.mail.Size = New System.Drawing.Size(100, 20)
         Me.mail.TabIndex = 17
         '
-        'bt_crear
-        '
-        Me.bt_crear.Location = New System.Drawing.Point(147, 292)
-        Me.bt_crear.Name = "bt_crear"
-        Me.bt_crear.Size = New System.Drawing.Size(75, 23)
-        Me.bt_crear.TabIndex = 18
-        Me.bt_crear.Text = "Crear"
-        Me.bt_crear.UseVisualStyleBackColor = True
-        '
-        'bt_cancelar
-        '
-        Me.bt_cancelar.Location = New System.Drawing.Point(228, 292)
-        Me.bt_cancelar.Name = "bt_cancelar"
-        Me.bt_cancelar.Size = New System.Drawing.Size(75, 23)
-        Me.bt_cancelar.TabIndex = 19
-        Me.bt_cancelar.Text = "Cancelar"
-        Me.bt_cancelar.UseVisualStyleBackColor = True
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.SAE_Principal.My.Resources.Resources.contactbook
@@ -218,14 +209,85 @@ Partial Class CrearUsuario
         Me.PictureBox1.TabIndex = 20
         Me.PictureBox1.TabStop = False
         '
+        'Panel1
+        '
+        Me.Panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.Label15)
+        Me.Panel1.Controls.Add(Me.PictureBox4)
+        Me.Panel1.Controls.Add(Me.Label14)
+        Me.Panel1.Controls.Add(Me.PictureBox3)
+        Me.Panel1.Controls.Add(Me.Label13)
+        Me.Panel1.Controls.Add(Me.PictureBox2)
+        Me.Panel1.Location = New System.Drawing.Point(1, 332)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(547, 94)
+        Me.Panel1.TabIndex = 25
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(339, 65)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(49, 13)
+        Me.Label15.TabIndex = 5
+        Me.Label15.Text = "Cancelar"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.SAE_Principal.My.Resources.Resources.close2
+        Me.PictureBox4.Location = New System.Drawing.Point(330, 0)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(64, 60)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 4
+        Me.PictureBox4.TabStop = False
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(412, 65)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(45, 13)
+        Me.Label14.TabIndex = 3
+        Me.Label14.Text = "Guardar"
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.SAE_Principal.My.Resources.Resources.Floppy_disk_512
+        Me.PictureBox3.Location = New System.Drawing.Point(400, 0)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(65, 60)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 2
+        Me.PictureBox3.TabStop = False
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(493, 65)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(27, 13)
+        Me.Label13.TabIndex = 1
+        Me.Label13.Text = "Salir"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.SAE_Principal.My.Resources.Resources.inside
+        Me.PictureBox2.Location = New System.Drawing.Point(471, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(65, 60)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
         'CrearUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(572, 343)
+        Me.ClientSize = New System.Drawing.Size(549, 427)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.bt_cancelar)
-        Me.Controls.Add(Me.bt_crear)
         Me.Controls.Add(Me.mail)
         Me.Controls.Add(Me.tel)
         Me.Controls.Add(Me.dir)
@@ -247,6 +309,11 @@ Partial Class CrearUsuario
         Me.Name = "CrearUsuario"
         Me.Text = "CrearUsuario"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -270,7 +337,12 @@ Partial Class CrearUsuario
     Friend WithEvents dir As TextBox
     Friend WithEvents tel As TextBox
     Friend WithEvents mail As TextBox
-    Friend WithEvents bt_crear As Button
-    Friend WithEvents bt_cancelar As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label15 As Label
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Label14 As Label
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

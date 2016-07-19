@@ -23,26 +23,26 @@ Partial Class CrearCuenta
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.socio_negocio_box = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.NoCuotas = New System.Windows.Forms.ComboBox()
+        Me.periodo = New System.Windows.Forms.ComboBox()
+        Me.NoFactura = New System.Windows.Forms.ComboBox()
+        Me.identificador = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.fecha_inicio = New System.Windows.Forms.DateTimePicker()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.saldo_inicial = New System.Windows.Forms.TextBox()
+        Me.iva = New System.Windows.Forms.TextBox()
+        Me.Abono = New System.Windows.Forms.TextBox()
+        Me.saldo_final = New System.Windows.Forms.TextBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
@@ -54,8 +54,10 @@ Partial Class CrearCuenta
         Me.Label13 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.descripcion = New System.Windows.Forms.RichTextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.fecha_final = New System.Windows.Forms.Label()
+        Me.fecha_vencimiento = New System.Windows.Forms.DateTimePicker()
         Me.TabControl1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -73,13 +75,13 @@ Partial Class CrearCuenta
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Razon Social:"
         '
-        'ComboBox1
+        'socio_negocio_box
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(167, 83)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 1
+        Me.socio_negocio_box.FormattingEnabled = True
+        Me.socio_negocio_box.Location = New System.Drawing.Point(167, 83)
+        Me.socio_negocio_box.Name = "socio_negocio_box"
+        Me.socio_negocio_box.Size = New System.Drawing.Size(121, 21)
+        Me.socio_negocio_box.TabIndex = 1
         '
         'Label2
         '
@@ -108,36 +110,38 @@ Partial Class CrearCuenta
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Numero Cuotas:"
         '
-        'ComboBox2
+        'NoCuotas
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(167, 169)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 5
+        Me.NoCuotas.FormattingEnabled = True
+        Me.NoCuotas.Items.AddRange(New Object() {"3", "6", "12"})
+        Me.NoCuotas.Location = New System.Drawing.Point(167, 169)
+        Me.NoCuotas.Name = "NoCuotas"
+        Me.NoCuotas.Size = New System.Drawing.Size(121, 21)
+        Me.NoCuotas.TabIndex = 5
         '
-        'ComboBox3
+        'periodo
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(167, 196)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox3.TabIndex = 6
+        Me.periodo.FormattingEnabled = True
+        Me.periodo.Items.AddRange(New Object() {"QUINCENAL", "MENSUAL"})
+        Me.periodo.Location = New System.Drawing.Point(167, 196)
+        Me.periodo.Name = "periodo"
+        Me.periodo.Size = New System.Drawing.Size(121, 21)
+        Me.periodo.TabIndex = 6
         '
-        'ComboBox4
+        'NoFactura
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(421, 83)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox4.TabIndex = 7
+        Me.NoFactura.FormattingEnabled = True
+        Me.NoFactura.Location = New System.Drawing.Point(421, 83)
+        Me.NoFactura.Name = "NoFactura"
+        Me.NoFactura.Size = New System.Drawing.Size(121, 21)
+        Me.NoFactura.TabIndex = 7
         '
-        'TextBox1
+        'identificador
         '
-        Me.TextBox1.Location = New System.Drawing.Point(167, 112)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox1.TabIndex = 8
+        Me.identificador.Location = New System.Drawing.Point(167, 112)
+        Me.identificador.Name = "identificador"
+        Me.identificador.Size = New System.Drawing.Size(121, 20)
+        Me.identificador.TabIndex = 8
         '
         'Label5
         '
@@ -166,12 +170,12 @@ Partial Class CrearCuenta
         Me.Label7.TabIndex = 11
         Me.Label7.Text = "IVA:"
         '
-        'DateTimePicker1
+        'fecha_inicio
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(167, 140)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(121, 20)
-        Me.DateTimePicker1.TabIndex = 13
+        Me.fecha_inicio.Location = New System.Drawing.Point(167, 140)
+        Me.fecha_inicio.Name = "fecha_inicio"
+        Me.fecha_inicio.Size = New System.Drawing.Size(121, 20)
+        Me.fecha_inicio.TabIndex = 13
         '
         'Label8
         '
@@ -210,40 +214,40 @@ Partial Class CrearCuenta
         Me.Label11.TabIndex = 18
         Me.Label11.Text = "Saldo Final:"
         '
-        'TextBox2
+        'saldo_inicial
         '
-        Me.TextBox2.Location = New System.Drawing.Point(421, 112)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 19
+        Me.saldo_inicial.Location = New System.Drawing.Point(421, 112)
+        Me.saldo_inicial.Name = "saldo_inicial"
+        Me.saldo_inicial.Size = New System.Drawing.Size(100, 20)
+        Me.saldo_inicial.TabIndex = 19
         '
-        'TextBox3
+        'iva
         '
-        Me.TextBox3.Location = New System.Drawing.Point(420, 140)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 20
+        Me.iva.Location = New System.Drawing.Point(420, 140)
+        Me.iva.Name = "iva"
+        Me.iva.Size = New System.Drawing.Size(100, 20)
+        Me.iva.TabIndex = 20
         '
-        'TextBox4
+        'Abono
         '
-        Me.TextBox4.Location = New System.Drawing.Point(421, 170)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 21
+        Me.Abono.Location = New System.Drawing.Point(421, 170)
+        Me.Abono.Name = "Abono"
+        Me.Abono.Size = New System.Drawing.Size(100, 20)
+        Me.Abono.TabIndex = 21
         '
-        'TextBox5
+        'saldo_final
         '
-        Me.TextBox5.Location = New System.Drawing.Point(420, 196)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 22
+        Me.saldo_final.Location = New System.Drawing.Point(420, 196)
+        Me.saldo_final.Name = "saldo_final"
+        Me.saldo_final.Size = New System.Drawing.Size(100, 20)
+        Me.saldo_final.TabIndex = 22
         '
         'TabControl1
         '
         Me.TabControl1.AccessibleName = ""
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Location = New System.Drawing.Point(2, 296)
+        Me.TabControl1.Location = New System.Drawing.Point(2, 331)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(643, 151)
@@ -279,7 +283,7 @@ Partial Class CrearCuenta
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.Label13)
         Me.Panel1.Controls.Add(Me.PictureBox2)
-        Me.Panel1.Location = New System.Drawing.Point(2, 453)
+        Me.Panel1.Location = New System.Drawing.Point(2, 488)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(643, 89)
         Me.Panel1.TabIndex = 24
@@ -344,19 +348,19 @@ Partial Class CrearCuenta
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(95, 236)
+        Me.Label12.Location = New System.Drawing.Point(95, 271)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(66, 13)
         Me.Label12.TabIndex = 25
         Me.Label12.Text = "Descripción:"
         '
-        'RichTextBox1
+        'descripcion
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(167, 236)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(352, 54)
-        Me.RichTextBox1.TabIndex = 26
-        Me.RichTextBox1.Text = ""
+        Me.descripcion.Location = New System.Drawing.Point(167, 271)
+        Me.descripcion.Name = "descripcion"
+        Me.descripcion.Size = New System.Drawing.Size(352, 54)
+        Me.descripcion.TabIndex = 26
+        Me.descripcion.Text = ""
         '
         'PictureBox1
         '
@@ -368,36 +372,54 @@ Partial Class CrearCuenta
         Me.PictureBox1.TabIndex = 15
         Me.PictureBox1.TabStop = False
         '
+        'fecha_final
+        '
+        Me.fecha_final.AutoSize = True
+        Me.fecha_final.Location = New System.Drawing.Point(46, 230)
+        Me.fecha_final.Name = "fecha_final"
+        Me.fecha_final.Size = New System.Drawing.Size(115, 13)
+        Me.fecha_final.TabIndex = 27
+        Me.fecha_final.Text = "Fecha de vencimiento:"
+        '
+        'fecha_vencimiento
+        '
+        Me.fecha_vencimiento.Location = New System.Drawing.Point(167, 230)
+        Me.fecha_vencimiento.Name = "fecha_vencimiento"
+        Me.fecha_vencimiento.Size = New System.Drawing.Size(121, 20)
+        Me.fecha_vencimiento.TabIndex = 28
+        '
         'CrearCuenta
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(648, 543)
-        Me.Controls.Add(Me.RichTextBox1)
+        Me.ClientSize = New System.Drawing.Size(648, 579)
+        Me.Controls.Add(Me.fecha_vencimiento)
+        Me.Controls.Add(Me.fecha_final)
+        Me.Controls.Add(Me.descripcion)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TabControl1)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.saldo_final)
+        Me.Controls.Add(Me.Abono)
+        Me.Controls.Add(Me.iva)
+        Me.Controls.Add(Me.saldo_inicial)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.fecha_inicio)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.ComboBox4)
-        Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.identificador)
+        Me.Controls.Add(Me.NoFactura)
+        Me.Controls.Add(Me.periodo)
+        Me.Controls.Add(Me.NoCuotas)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.socio_negocio_box)
         Me.Controls.Add(Me.Label1)
         Me.Name = "CrearCuenta"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
@@ -415,37 +437,39 @@ Partial Class CrearCuenta
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents socio_negocio_box As ComboBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents NoCuotas As ComboBox
+    Friend WithEvents periodo As ComboBox
+    Friend WithEvents NoFactura As ComboBox
+    Friend WithEvents identificador As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents fecha_inicio As DateTimePicker
     Friend WithEvents Label8 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents saldo_inicial As TextBox
+    Friend WithEvents iva As TextBox
+    Friend WithEvents Abono As TextBox
+    Friend WithEvents saldo_final As TextBox
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label12 As Label
-    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents descripcion As RichTextBox
     Friend WithEvents Label13 As Label
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label14 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label15 As Label
+    Friend WithEvents fecha_final As Label
+    Friend WithEvents fecha_vencimiento As DateTimePicker
 End Class

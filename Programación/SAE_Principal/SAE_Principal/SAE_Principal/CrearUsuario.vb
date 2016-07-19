@@ -6,11 +6,19 @@ Public Class CrearUsuario
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles bt_cancelar.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
         Close()
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bt_crear.Click
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles usuario.TextChanged
+
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Close()
+    End Sub
+
+    Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox3.Click
         If String.IsNullOrEmpty(usuario.Text) Or
                 String.IsNullOrEmpty(password.Text) Then
             MsgBox("Los campos estan vacios")
@@ -45,9 +53,5 @@ Public Class CrearUsuario
                 mail.Clear()
             End Try
         End If
-    End Sub
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles usuario.TextChanged
-
     End Sub
 End Class
