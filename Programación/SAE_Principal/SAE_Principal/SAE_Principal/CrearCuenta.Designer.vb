@@ -47,15 +47,15 @@ Partial Class CrearCuenta
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label15 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -284,6 +284,63 @@ Partial Class CrearCuenta
         Me.Panel1.Size = New System.Drawing.Size(643, 89)
         Me.Panel1.TabIndex = 24
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(437, 68)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(49, 13)
+        Me.Label15.TabIndex = 5
+        Me.Label15.Text = "Cancelar"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.SAE_Principal.My.Resources.Resources.close2
+        Me.PictureBox4.Location = New System.Drawing.Point(428, 3)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(64, 60)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 4
+        Me.PictureBox4.TabStop = False
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(510, 68)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(45, 13)
+        Me.Label14.TabIndex = 3
+        Me.Label14.Text = "Guardar"
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.SAE_Principal.My.Resources.Resources.Floppy_disk_512
+        Me.PictureBox3.Location = New System.Drawing.Point(498, 3)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(65, 60)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 2
+        Me.PictureBox3.TabStop = False
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(591, 68)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(27, 13)
+        Me.Label13.TabIndex = 1
+        Me.Label13.Text = "Salir"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.SAE_Principal.My.Resources.Resources.inside
+        Me.PictureBox2.Location = New System.Drawing.Point(569, 3)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(65, 60)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
         'Label12
         '
         Me.Label12.AutoSize = True
@@ -301,54 +358,6 @@ Partial Class CrearCuenta
         Me.RichTextBox1.TabIndex = 26
         Me.RichTextBox1.Text = ""
         '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(591, 68)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(27, 13)
-        Me.Label13.TabIndex = 1
-        Me.Label13.Text = "Salir"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(510, 68)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(45, 13)
-        Me.Label14.TabIndex = 3
-        Me.Label14.Text = "Guardar"
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = Global.SAE_Principal.My.Resources.Resources.close2
-        Me.PictureBox4.Location = New System.Drawing.Point(428, 3)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(64, 60)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 4
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.SAE_Principal.My.Resources.Resources.Floppy_disk_512
-        Me.PictureBox3.Location = New System.Drawing.Point(498, 3)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(65, 60)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.SAE_Principal.My.Resources.Resources.inside
-        Me.PictureBox2.Location = New System.Drawing.Point(569, 3)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(65, 60)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.SAE_Principal.My.Resources.Resources.phonebook1
@@ -358,15 +367,6 @@ Partial Class CrearCuenta
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 15
         Me.PictureBox1.TabStop = False
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(437, 68)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(49, 13)
-        Me.Label15.TabIndex = 5
-        Me.Label15.Text = "Cancelar"
         '
         'CrearCuenta
         '

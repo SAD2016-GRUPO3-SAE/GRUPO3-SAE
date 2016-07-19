@@ -1,6 +1,25 @@
-﻿Public Class CrearCuenta
-    Private Sub CrearCuenta_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Imports System.Data.SqlClient
 
+Public Class CrearCuenta
+    Dim Dt As DataTable
+    Dim Da As New SqlDataAdapter
+    Dim Cmd As New SqlCommand
+
+    Private Sub CrearCuenta_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Dim cmd As New SqlCommand("select * from dbo.tbl_sae_socio_negocio", conectar)
+        'Dim cas As Integer
+        conectar.Open()
+        'cas = cmd.ExecuteNonQuery
+        Da.SelectCommand = cmd
+        Dt = New DataTable
+        Da.Fill(Dt)
+        With ComboBox1
+            .DataSource = Dt
+            .DisplayMember = "sng_nombre"
+            .ValueMember = "id_socio_negocio"
+        End With
+        conectar.Close()
+        'MsgBox("Los datos se guardaron con exito")
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -40,6 +59,14 @@
     End Sub
 
     Private Sub Label13_Click(sender As Object, e As EventArgs) Handles Label13.Click
+
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
+    End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
 
     End Sub
 End Class
