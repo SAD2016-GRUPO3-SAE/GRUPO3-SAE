@@ -42,7 +42,7 @@ Partial Class CrearCuenta
         Me.saldo_inicial = New System.Windows.Forms.TextBox()
         Me.iva = New System.Windows.Forms.TextBox()
         Me.Abono = New System.Windows.Forms.TextBox()
-        Me.saldo_final = New System.Windows.Forms.TextBox()
+        Me.total_credito = New System.Windows.Forms.TextBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
@@ -210,9 +210,9 @@ Partial Class CrearCuenta
         Me.Label11.AutoSize = True
         Me.Label11.Location = New System.Drawing.Point(353, 199)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(62, 13)
+        Me.Label11.Size = New System.Drawing.Size(70, 13)
         Me.Label11.TabIndex = 18
-        Me.Label11.Text = "Saldo Final:"
+        Me.Label11.Text = "Total Credito:"
         '
         'saldo_inicial
         '
@@ -235,12 +235,12 @@ Partial Class CrearCuenta
         Me.Abono.Size = New System.Drawing.Size(100, 20)
         Me.Abono.TabIndex = 21
         '
-        'saldo_final
+        'total_credito
         '
-        Me.saldo_final.Location = New System.Drawing.Point(420, 196)
-        Me.saldo_final.Name = "saldo_final"
-        Me.saldo_final.Size = New System.Drawing.Size(100, 20)
-        Me.saldo_final.TabIndex = 22
+        Me.total_credito.Location = New System.Drawing.Point(420, 196)
+        Me.total_credito.Name = "total_credito"
+        Me.total_credito.Size = New System.Drawing.Size(100, 20)
+        Me.total_credito.TabIndex = 22
         '
         'TabControl1
         '
@@ -399,7 +399,7 @@ Partial Class CrearCuenta
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TabControl1)
-        Me.Controls.Add(Me.saldo_final)
+        Me.Controls.Add(Me.total_credito)
         Me.Controls.Add(Me.Abono)
         Me.Controls.Add(Me.iva)
         Me.Controls.Add(Me.saldo_inicial)
@@ -457,7 +457,7 @@ Partial Class CrearCuenta
     Friend WithEvents saldo_inicial As TextBox
     Friend WithEvents iva As TextBox
     Friend WithEvents Abono As TextBox
-    Friend WithEvents saldo_final As TextBox
+    Friend WithEvents total_credito As TextBox
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage
