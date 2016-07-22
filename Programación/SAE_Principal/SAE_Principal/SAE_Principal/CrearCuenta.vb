@@ -7,6 +7,7 @@ Public Class CrearCuenta
     Dim Da As New SqlDataAdapter
     Dim Cmd As New SqlCommand
     Dim index_socio_actual As Integer
+    Dim index_saldo_inicio As Integer
 
     Private Sub CrearCuenta_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         socio_negocio_box.SelectedIndex = -1
@@ -38,13 +39,16 @@ Public Class CrearCuenta
                 .DisplayMember = "ecf_nofactura"
                 .ValueMember = "id_encabezadof"
             End With
+            saldo_inicial.Text = CStr(Dt2.Rows(0)("ecf_total_f"))
+            iva.Text = CStr(Dt2.Rows(0)("ecf_iva"))
+
             conectar.Close()
 
             'saldo_inicial.Text = ("select * from dbo.tbl_sae_encabezado_factura where id_socio_negocio = '" & socio_negocio_box.SelectedValue.ToString & "'", conectar)
             conectar.Close()
 
         Catch ex As Exception
-            NoFactura.Items.Clear()
+
         End Try
 
     End Sub
