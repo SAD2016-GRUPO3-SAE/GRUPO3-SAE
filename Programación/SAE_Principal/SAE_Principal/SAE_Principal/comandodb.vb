@@ -10,3 +10,5 @@ Module comandodb
     Public fechaformat As String = fechahoy.ToString("YYYY/MM/DD")
     Public idusuario As Integer = 0
 End Module
+
+'Clase que guarda los comandos para la base de datos
