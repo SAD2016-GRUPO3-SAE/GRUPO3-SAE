@@ -19,23 +19,16 @@ C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Prin
 C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.exe
 C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.xml
 C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.pdb
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\SAE_Principal.exe.config
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.exe
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.xml
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.pdb
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\SAE_Principal.exe
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\SAE_Principal.pdb
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\SAE_Principal.xml
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\CapaDatos.dll
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\CapaNegocio.dll
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\CapaPresentacion.dll
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Final.vbprojResolveAssemblyReference.cache
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.BuscarCuenta.resources
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.caja.resources
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.CrearCuenta.resources
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.CrearUsuario.resources
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.FondoSAE.resources
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.Form1.resources
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.MDISAE.resources
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.Resources.resources
-C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Final.vbproj.GenerateResource.Cache
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\SAE_Principal.exe
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\SAE_Principal.pdb
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\SAE_Principal.xml
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Final.vbprojResolveAssemblyReference.cache
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.BuscarCuenta.resources
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.caja.resources
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.CrearCuenta.resources
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.CrearUsuario.resources
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.FondoSAE.resources
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.Form1.resources
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.MDISAE.resources
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.Resources.resources
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Final.vbproj.GenerateResource.Cache
