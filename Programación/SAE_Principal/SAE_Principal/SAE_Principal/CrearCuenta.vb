@@ -111,4 +111,83 @@ Public Class CrearCuenta
         End If
     End Sub
 
+    Private Sub NoFactura_SelectedIndexChanged(sender As Object, e As EventArgs) Handles NoFactura.SelectedIndexChanged
+        If index_socio_actual = -10 Then
+
+        ElseIf NoFactura.SelectedIndex <> -1 Then
+            Dim conectar2 As New SqlConnection("Server=Xavi-Ruiz\SQLEXPRESS;Database=SAEDB;Trusted_Connection=True")
+            '  System.Console.WriteLine("select * from dbo.tbl_sae_encabezado_factura where id_encabezadof= " & NoFactura.SelectedValue.ToString() & "")
+            Dim queryString As New String("select * from dbo.tbl_sae_encabezado_factura where id_encabezadof= " & NoFactura.SelectedValue.ToString() & "")
+            If queryString.Contains("System.Data.DataRowView") Then
+
+            Else
+                Dim cmd2 As New SqlCommand(queryString, conectar2)
+                conectar2.Open()
+                Da.SelectCommand = cmd2
+                Dim Dt4 As New DataTable
+                Da.Fill(Dt4)
+                iva.Text = Dt4.Rows.Item(0).Item("ecf_iva")
+                saldo_inicial.Text = Dt4.Rows.Item(0).Item("ecf_total_f")
+                total_credito.Text = Dt4.Rows.Item(0).Item("ecf_total_f")
+                conectar2.Close()
+            End If
+        End If
+
+    End Sub
+
+    Private Sub total_credito_TextChanged(sender As Object, e As EventArgs) Handles Abono.TextChanged
+        Dim temporal As Double
+        Dim abonoNum As Double
+        Try
+            abonoNum = Double.Parse(Abono.Text)
+            temporal = Double.Parse(saldo_inicial.Text)
+            temporal -= abonoNum
+            total_credito.Text = temporal.ToString
+        Catch ex As Exception
+
+        End Try
+
+
+
+    End Sub
+
+    Private Sub Calcular_Vencimiento()
+        'Dim fechaInicio As Date
+        'Dim fechaFin As Date
+        Dim numeroDias As Integer
+
+        Select Case periodo.SelectedIndex
+            Case 0 : numeroDias = 15
+            Case 1 : numeroDias = 30
+            Case Else : numeroDias = 1
+        End Select
+
+        Select Case NoCuotas.SelectedIndex
+            Case 0 : numeroDias *= 3
+            Case 1 : numeroDias *= 6
+            Case 2 : numeroDias *= 12
+            Case Else
+                numeroDias *= 1
+        End Select
+        fecha_vencimiento.Value = fecha_inicio.Value.AddDays(numeroDias)
+
+    End Sub
+
+    Private Sub fecha_inicio_ValueChanged(sender As Object, e As EventArgs) Handles fecha_inicio.ValueChanged
+        Calcular_Vencimiento()
+    End Sub
+
+    Private Sub NoCuotas_SelectedIndexChanged(sender As Object, e As EventArgs) Handles NoCuotas.SelectedIndexChanged
+        If index_socio_actual = -10 Then
+        Else
+            Calcular_Vencimiento()
+        End If
+    End Sub
+
+    Private Sub periodo_SelectedIndexChanged(sender As Object, e As EventArgs) Handles periodo.SelectedIndexChanged
+        If index_socio_actual = -10 Then
+        Else
+            Calcular_Vencimiento()
+        End If
+    End Sub
 End Class

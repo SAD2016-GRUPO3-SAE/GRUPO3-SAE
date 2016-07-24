@@ -172,6 +172,7 @@ Partial Class CrearCuenta
         '
         'fecha_inicio
         '
+        Me.fecha_inicio.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.fecha_inicio.Location = New System.Drawing.Point(167, 140)
         Me.fecha_inicio.Name = "fecha_inicio"
         Me.fecha_inicio.Size = New System.Drawing.Size(121, 20)
@@ -383,6 +384,7 @@ Partial Class CrearCuenta
         '
         'fecha_vencimiento
         '
+        Me.fecha_vencimiento.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.fecha_vencimiento.Location = New System.Drawing.Point(167, 230)
         Me.fecha_vencimiento.Name = "fecha_vencimiento"
         Me.fecha_vencimiento.Size = New System.Drawing.Size(121, 20)
