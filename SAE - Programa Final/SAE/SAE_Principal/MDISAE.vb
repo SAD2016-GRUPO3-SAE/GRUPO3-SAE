@@ -1,4 +1,6 @@
-﻿Public Class MDISAE
+﻿Imports CapaPresentacion
+
+Public Class MDISAE
     Private Sub MDISAE_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim Fondo As New FondoSAE
         Fondo.MdiParent = Me
@@ -57,5 +59,10 @@
 
     Private Sub UsuariosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UsuariosToolStripMenuItem.Click
 
+    End Sub
+
+    Private Sub ArticulsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ArticulsToolStripMenuItem.Click
+        Dim frm As New CapaPresentacion.Productos()
+        frm.Show()
     End Sub
 End Class
