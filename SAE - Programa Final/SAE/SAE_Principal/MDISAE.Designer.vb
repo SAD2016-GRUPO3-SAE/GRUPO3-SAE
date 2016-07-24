@@ -62,6 +62,7 @@ Partial Class MDISAE
         Me.ListadoDeArticulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CuentasPorCobrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PagoAProveedorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -206,14 +207,14 @@ Partial Class MDISAE
         '
         Me.CrearCuentaToolStripMenuItem1.Image = Global.SAE_Principal.My.Resources.Resources.contactbook
         Me.CrearCuentaToolStripMenuItem1.Name = "CrearCuentaToolStripMenuItem1"
-        Me.CrearCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.CrearCuentaToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
         Me.CrearCuentaToolStripMenuItem1.Text = "Crear Cuenta"
         '
         'BuscarCuentaToolStripMenuItem1
         '
         Me.BuscarCuentaToolStripMenuItem1.Image = Global.SAE_Principal.My.Resources.Resources.find
         Me.BuscarCuentaToolStripMenuItem1.Name = "BuscarCuentaToolStripMenuItem1"
-        Me.BuscarCuentaToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.BuscarCuentaToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
         Me.BuscarCuentaToolStripMenuItem1.Text = "Buscar Cuenta"
         '
         'ComprasToolStripMenuItem
@@ -243,7 +244,7 @@ Partial Class MDISAE
         '
         'ProveedoresToolStripMenuItem
         '
-        Me.ProveedoresToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NotasDeCreditoToolStripMenuItem})
+        Me.ProveedoresToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NotasDeCreditoToolStripMenuItem, Me.PagoAProveedorToolStripMenuItem})
         Me.ProveedoresToolStripMenuItem.Name = "ProveedoresToolStripMenuItem"
         Me.ProveedoresToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
         Me.ProveedoresToolStripMenuItem.Text = "Cuentas por Pagar"
@@ -251,7 +252,7 @@ Partial Class MDISAE
         'NotasDeCreditoToolStripMenuItem
         '
         Me.NotasDeCreditoToolStripMenuItem.Name = "NotasDeCreditoToolStripMenuItem"
-        Me.NotasDeCreditoToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
+        Me.NotasDeCreditoToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.NotasDeCreditoToolStripMenuItem.Text = "Notas de Credito"
         '
         'InventarioToolStripMenuItem1
@@ -322,6 +323,12 @@ Partial Class MDISAE
         Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.AyudaToolStripMenuItem.Text = "Ayuda"
         '
+        'PagoAProveedorToolStripMenuItem
+        '
+        Me.PagoAProveedorToolStripMenuItem.Name = "PagoAProveedorToolStripMenuItem"
+        Me.PagoAProveedorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.PagoAProveedorToolStripMenuItem.Text = "Pago a Proveedor"
+        '
         'MDISAE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -379,4 +386,5 @@ Partial Class MDISAE
     Friend WithEvents IngresosToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents EgresosToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ExistenciasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PagoAProveedorToolStripMenuItem As ToolStripMenuItem
 End Class

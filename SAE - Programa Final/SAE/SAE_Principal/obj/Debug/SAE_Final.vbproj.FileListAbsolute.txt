@@ -15,3 +15,7 @@ C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.exe
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.xml
 C:\Users\XavRuiz\Source\Repos\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.pdb
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\bin\Debug\SAE_Principal.exe.config
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.exe
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.xml
+C:\Users\usuariopc\Sae Final GitHub\GRUPO3-SAE\SAE - Programa Final\SAE\SAE_Principal\obj\Debug\SAE_Principal.pdb
