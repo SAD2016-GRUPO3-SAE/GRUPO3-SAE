@@ -93,4 +93,9 @@ Public Class MDISAE
         Dim frm As New CapaPresentacion.FrmReportes()
         frm.Show()
     End Sub
+
+    Private Sub ListadoDeSociosDeNegocioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListadoDeSociosDeNegocioToolStripMenuItem.Click
+        Dim frm As New CapaPresentacion.Reporte2()
+        frm.Show()
+    End Sub
 End Class
