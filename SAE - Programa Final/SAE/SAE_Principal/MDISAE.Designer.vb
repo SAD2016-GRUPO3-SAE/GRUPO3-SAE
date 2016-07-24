@@ -300,8 +300,8 @@ Partial Class MDISAE
         'ListadoDeSociosDeNegocioToolStripMenuItem
         '
         Me.ListadoDeSociosDeNegocioToolStripMenuItem.Name = "ListadoDeSociosDeNegocioToolStripMenuItem"
-        Me.ListadoDeSociosDeNegocioToolStripMenuItem.Size = New System.Drawing.Size(229, 22)
-        Me.ListadoDeSociosDeNegocioToolStripMenuItem.Text = "Listado de Socios de Negocio"
+        Me.ListadoDeSociosDeNegocioToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
+        Me.ListadoDeSociosDeNegocioToolStripMenuItem.Text = "Listado de Socio Proveedor"
         '
         'ListadoDeFacturasVentasToolStripMenuItem
         '
