@@ -66,12 +66,20 @@ Public Class MDISAE
         frm.Show()
     End Sub
 
-    Private Sub INGToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles INGToolStripMenuItem.Click
+    ' Private Sub INGToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles INGToolStripMenuItem.Click
+
+    ' End Sub
+
+    'Private Sub IngresoSocioProveedorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IngresoSocioProveedorToolStripMenuItem.Click
+
+    '  End Sub
+
+    Private Sub IngresoCategoriasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IngresoCategoriasToolStripMenuItem.Click
         Dim frm As New CapaPresentacion.Categorias()
         frm.Show()
     End Sub
 
-    Private Sub IngresoSocioProveedorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IngresoSocioProveedorToolStripMenuItem.Click
+    Private Sub IngresoSocioProvedoresToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IngresoSocioProvedoresToolStripMenuItem.Click
         Dim frm As New CapaPresentacion.Proveedores()
         frm.Show()
     End Sub
