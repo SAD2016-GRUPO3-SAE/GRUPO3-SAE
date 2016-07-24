@@ -51,6 +51,7 @@ Partial Class MDISAE
         Me.ComprasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProveedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NotasDeCreditoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PagoAProveedorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InventarioToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.IngresosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EgresosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -62,7 +63,6 @@ Partial Class MDISAE
         Me.ListadoDeArticulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CuentasPorCobrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PagoAProveedorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -156,7 +156,7 @@ Partial Class MDISAE
         '
         Me.ArticulsToolStripMenuItem.Name = "ArticulsToolStripMenuItem"
         Me.ArticulsToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
-        Me.ArticulsToolStripMenuItem.Text = "Articulos"
+        Me.ArticulsToolStripMenuItem.Text = "Productos"
         '
         'ProcesosToolStripMenuItem
         '
@@ -255,6 +255,12 @@ Partial Class MDISAE
         Me.NotasDeCreditoToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.NotasDeCreditoToolStripMenuItem.Text = "Notas de Credito"
         '
+        'PagoAProveedorToolStripMenuItem
+        '
+        Me.PagoAProveedorToolStripMenuItem.Name = "PagoAProveedorToolStripMenuItem"
+        Me.PagoAProveedorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.PagoAProveedorToolStripMenuItem.Text = "Pago a Proveedor"
+        '
         'InventarioToolStripMenuItem1
         '
         Me.InventarioToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresosToolStripMenuItem1, Me.EgresosToolStripMenuItem1, Me.ExistenciasToolStripMenuItem})
@@ -322,12 +328,6 @@ Partial Class MDISAE
         Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
         Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.AyudaToolStripMenuItem.Text = "Ayuda"
-        '
-        'PagoAProveedorToolStripMenuItem
-        '
-        Me.PagoAProveedorToolStripMenuItem.Name = "PagoAProveedorToolStripMenuItem"
-        Me.PagoAProveedorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
-        Me.PagoAProveedorToolStripMenuItem.Text = "Pago a Proveedor"
         '
         'MDISAE
         '
