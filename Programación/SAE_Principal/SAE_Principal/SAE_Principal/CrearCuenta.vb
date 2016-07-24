@@ -83,7 +83,7 @@ Public Class CrearCuenta
                 idCta = cmd2.ExecuteScalar
                 Dim creationDate As New Date
                 Dim queryStringInsert As String
-                queryStringInsert = "insert into dbo.tbl_sae_saldo (id_cuenta, sld_descripcion,sld_saldo, sld__fecha) values  (" & idCta.ToString & ",'" & descripcion.Text & "'," & Abono.Text & ",'" & creationDate & "')"
+                queryStringInsert = "insert into dbo.tbl_sae_saldo (id_cuenta, sld_descripcion,sld_saldo, sld__fecha) values  (" & idCta.ToString & ",'" & descripcion.Text & "'," & Abono.Text & ", GETDATE())"
                 System.Console.WriteLine(queryStringInsert)
                 Dim cmd3 As New SqlCommand(queryStringInsert, conectar)
                 If cas > 0 Then
