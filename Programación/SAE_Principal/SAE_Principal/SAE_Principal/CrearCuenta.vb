@@ -83,6 +83,7 @@ Public Class CrearCuenta
                 identificador.Clear()
                 NoCuotas.Items.Clear()
                 periodo.Items.Clear()
+
             Catch ex As Exception
                 MsgBox("Los datos no se han podido Guardar")
                 identificador.Clear()
