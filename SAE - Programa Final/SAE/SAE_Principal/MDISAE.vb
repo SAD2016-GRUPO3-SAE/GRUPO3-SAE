@@ -83,4 +83,9 @@ Public Class MDISAE
         Dim frm As New CapaPresentacion.Proveedores()
         frm.Show()
     End Sub
+
+    Private Sub OrdenDeCompraToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OrdenDeCompraToolStripMenuItem.Click
+        Dim frm As New CapaPresentacion.Ordenes()
+        frm.Show()
+    End Sub
 End Class
