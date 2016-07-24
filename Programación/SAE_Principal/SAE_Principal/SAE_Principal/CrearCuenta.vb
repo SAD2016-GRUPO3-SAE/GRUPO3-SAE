@@ -64,8 +64,8 @@ Public Class CrearCuenta
             MsgBox("Los campos estan vacios")
         Else
             Try
-                Dim fecha_inicio As Date
-                Dim fecha_vencimiento As Date
+                ' Dim fecha_inicio As Date
+                ' Dim fecha_vencimiento As Date
                 saldo_inicial.Text = socio_negocio_box.SelectedValue.ToString()
                 If String.IsNullOrEmpty(socio_negocio_box.Text) Then
                     saldo_inicial.Text = socio_negocio_box.SelectedValue.ToString()
@@ -73,16 +73,29 @@ Public Class CrearCuenta
                     MsgBox("No existe el cliente")
                 End If
 
-                Dim cmd As New SqlCommand("insert into tbl_sae_cuentaporcobrar (cpc_identificador, cpc_fecha_inicio, cpc_num_cuotas, cpc_periodo, cpc_fecha_vencimiento, id_socio_negocio) values ('" & identificador.Text & "','" & fecha_inicio & "','" & NoCuotas.Text & "','" & periodo.Text & "','" & fecha_vencimiento & "','" & socio_negocio_box.SelectedValue.ToString & "')", conectar)
-                ' Dim cmd2 As New SqlCommand(" ")
+                Dim cmd As New SqlCommand("insert into tbl_sae_cuentaporcobrar (cpc_identificador, cpc_fecha_inicio, cpc_num_cuotas, cpc_periodo, cpc_fecha_vencimiento, id_socio_negocio) values ('" & identificador.Text & "','" & fecha_inicio.Value & "','" & NoCuotas.Text & "','" & periodo.Text & "','" & fecha_vencimiento.Value & "','" & socio_negocio_box.SelectedValue.ToString & "')", conectar)
+                Dim cmd2 As New SqlCommand("select SCOPE_IDENTITY()", conectar)
+
                 Dim cas As Integer
                 conectar.Open()
                 cas = cmd.ExecuteNonQuery
+                Dim idCta As Integer
+                idCta = cmd2.ExecuteScalar
+                Dim creationDate As New Date
+                Dim queryStringInsert As String
+                queryStringInsert = "insert into dbo.tbl_sae_saldo (id_cuenta, sld_descripcion,sld_saldo, sld__fecha) values  (" & idCta.ToString & ",'" & descripcion.Text & "'," & Abono.Text & ",'" & creationDate & "')"
+                System.Console.WriteLine(queryStringInsert)
+                Dim cmd3 As New SqlCommand(queryStringInsert, conectar)
+                If cas > 0 Then
+                    cmd3.ExecuteNonQuery()
+                End If
+
                 conectar.Close()
                 MsgBox("Los datos se guardaron con exito")
                 identificador.Clear()
                 NoCuotas.Items.Clear()
                 periodo.Items.Clear()
+                '                MsgBox("numero cuenta " & idCta)
 
             Catch ex As Exception
                 MsgBox("Los datos no se han podido Guardar")
