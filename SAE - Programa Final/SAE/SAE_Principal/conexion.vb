@@ -6,7 +6,7 @@ Public Class conexion
     Public Shared con As New SqlConnection
     Public Shared Function Conectado()
         Try
-            con = New SqlConnection("Server=Xavi-Ruiz\SQLEXPRESS;Database=SAEDB;Trusted_Connection=True")
+            con = New SqlConnection("Server=168.234.74.21;Database=SAEDB;Trusted_Connection=True")
             con.Open()
             Return True
         Catch ex As Exception
