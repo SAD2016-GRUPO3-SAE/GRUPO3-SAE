@@ -129,7 +129,7 @@ Public Class CrearCuenta
         If index_socio_actual = -10 Then
 
         ElseIf NoFactura.SelectedIndex <> -1 Then
-            Dim conectar2 As New SqlConnection("Server=Xavi-Ruiz\SQLEXPRESS;Database=SAEDB;Trusted_Connection=True")
+            Dim conectar2 As New SqlConnection("Data Source=168.234.74.21;Initial Catalog=SAEDB;User ID=db3admin;Password=db3admin$")
             '  System.Console.WriteLine("select * from dbo.tbl_sae_encabezado_factura where id_encabezadof= " & NoFactura.SelectedValue.ToString() & "")
             Dim queryString As New String("select * from dbo.tbl_sae_encabezado_factura where id_encabezadof= " & NoFactura.SelectedValue.ToString() & "")
             If queryString.Contains("System.Data.DataRowView") Then

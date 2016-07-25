@@ -38,7 +38,7 @@ Public Class caja
 
     Private Sub cpcBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cpcBox.SelectedIndexChanged
         If cpcBox.SelectedIndex <> -1 Then
-            Dim conectar2 As New SqlConnection("Server=Xavi-Ruiz\SQLEXPRESS;Database=SAEDB;Trusted_Connection=True")
+            Dim conectar2 As New SqlConnection("Data Source=168.234.74.21;Initial Catalog=SAEDB;User ID=db3admin;Password=db3admin$")
             '  System.Console.WriteLine("select * from dbo.tbl_sae_encabezado_factura where id_encabezadof= " & NoFactura.SelectedValue.ToString() & "")
 
             Dim queryString As New String("select id_cuenta, min(sld_saldo) as saldo, count(id_cuenta) as cuota from dbo.tbl_sae_saldo where id_cuenta =" & cpcBox.SelectedValue.ToString() & " Group by id_cuenta")
