@@ -32,3 +32,14 @@ C:\Users\Carlos\Documents\GRUPO3-SAE\Programacion Modulo Compras\SAE_Compras\Apl
 C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\SAE_Compras.exe.config
 C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\obj\Debug\SAE_Compras.exe
 C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\obj\Debug\SAE_Compras.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\SAE_Compras.exe
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\SAE_Compras.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\CapaNegocio.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\obj\Debug\SAE_COMPRAS.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\obj\Debug\SAE_Compras.Properties.Resources.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\AplicacionEmpresa\obj\Debug\SAE_COMPRAS.csproj.GenerateResource.Cache

@@ -36,3 +36,9 @@ C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.pdb
 C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.pdb
 C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaDatos\obj\Debug\CapaDatos.pdb

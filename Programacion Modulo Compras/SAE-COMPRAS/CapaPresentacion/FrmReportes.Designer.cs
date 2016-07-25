@@ -90,10 +90,10 @@
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 4;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.973236F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 99.02676F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 92F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.179554F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 98.82044F));
             this.tableLayoutPanel2.Controls.Add(this.buttonRClientes, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel5, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.buttonRProductos, 1, 0);
@@ -116,7 +116,7 @@
             this.buttonRClientes.Location = new System.Drawing.Point(0, 0);
             this.buttonRClientes.Margin = new System.Windows.Forms.Padding(0);
             this.buttonRClientes.Name = "buttonRClientes";
-            this.buttonRClientes.Size = new System.Drawing.Size(78, 85);
+            this.buttonRClientes.Size = new System.Drawing.Size(92, 85);
             this.buttonRClientes.TabIndex = 0;
             this.buttonRClientes.Text = "Proveedores";
             this.buttonRClientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -136,12 +136,12 @@
             this.tableLayoutPanel5.Controls.Add(this.buttonGenerarReporte, 1, 1);
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel6, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel7, 1, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(167, 3);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(226, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.36709F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.63291F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(808, 79);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(749, 79);
             this.tableLayoutPanel5.TabIndex = 3;
             // 
             // comboBox
@@ -154,7 +154,7 @@
             this.comboBox.FormattingEnabled = true;
             this.comboBox.Location = new System.Drawing.Point(3, 41);
             this.comboBox.Name = "comboBox";
-            this.comboBox.Size = new System.Drawing.Size(509, 34);
+            this.comboBox.Size = new System.Drawing.Size(471, 34);
             this.comboBox.TabIndex = 5;
             // 
             // buttonGenerarReporte
@@ -164,10 +164,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonGenerarReporte.BackColor = System.Drawing.Color.Orange;
             this.buttonGenerarReporte.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGenerarReporte.Location = new System.Drawing.Point(518, 40);
+            this.buttonGenerarReporte.Location = new System.Drawing.Point(480, 40);
             this.buttonGenerarReporte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 3);
             this.buttonGenerarReporte.Name = "buttonGenerarReporte";
-            this.buttonGenerarReporte.Size = new System.Drawing.Size(287, 36);
+            this.buttonGenerarReporte.Size = new System.Drawing.Size(266, 36);
             this.buttonGenerarReporte.TabIndex = 6;
             this.buttonGenerarReporte.Text = "Generar Reporte";
             this.buttonGenerarReporte.UseVisualStyleBackColor = false;
@@ -186,7 +186,7 @@
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(515, 38);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(477, 38);
             this.tableLayoutPanel6.TabIndex = 3;
             // 
             // dateTimePickerDesde
@@ -196,9 +196,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimePickerDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePickerDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerDesde.Location = new System.Drawing.Point(309, 3);
+            this.dateTimePickerDesde.Location = new System.Drawing.Point(287, 3);
             this.dateTimePickerDesde.Name = "dateTimePickerDesde";
-            this.dateTimePickerDesde.Size = new System.Drawing.Size(203, 31);
+            this.dateTimePickerDesde.Size = new System.Drawing.Size(187, 31);
             this.dateTimePickerDesde.TabIndex = 3;
             this.dateTimePickerDesde.Value = new System.DateTime(2014, 7, 8, 0, 0, 0, 0);
             // 
@@ -207,7 +207,7 @@
             this.labelDesde.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.labelDesde.AutoSize = true;
             this.labelDesde.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDesde.Location = new System.Drawing.Point(229, 6);
+            this.labelDesde.Location = new System.Drawing.Point(207, 6);
             this.labelDesde.Name = "labelDesde";
             this.labelDesde.Size = new System.Drawing.Size(74, 26);
             this.labelDesde.TabIndex = 3;
@@ -221,12 +221,12 @@
             this.tableLayoutPanel7.Controls.Add(this.labelHasta, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.dateTimePickerHasta, 1, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(515, 0);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(477, 0);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(293, 38);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(272, 38);
             this.tableLayoutPanel7.TabIndex = 5;
             // 
             // labelHasta
@@ -247,9 +247,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimePickerHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePickerHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerHasta.Location = new System.Drawing.Point(89, 3);
+            this.dateTimePickerHasta.Location = new System.Drawing.Point(83, 3);
             this.dateTimePickerHasta.Name = "dateTimePickerHasta";
-            this.dateTimePickerHasta.Size = new System.Drawing.Size(201, 31);
+            this.dateTimePickerHasta.Size = new System.Drawing.Size(186, 31);
             this.dateTimePickerHasta.TabIndex = 4;
             // 
             // buttonRProductos
@@ -260,10 +260,10 @@
             this.buttonRProductos.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonRProductos.Image = global::CapaPresentacion.Properties.Resources.productos;
             this.buttonRProductos.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonRProductos.Location = new System.Drawing.Point(78, 0);
+            this.buttonRProductos.Location = new System.Drawing.Point(92, 0);
             this.buttonRProductos.Margin = new System.Windows.Forms.Padding(0);
             this.buttonRProductos.Name = "buttonRProductos";
-            this.buttonRProductos.Size = new System.Drawing.Size(78, 85);
+            this.buttonRProductos.Size = new System.Drawing.Size(123, 85);
             this.buttonRProductos.TabIndex = 2;
             this.buttonRProductos.Text = "Productos";
             this.buttonRProductos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;

@@ -37,7 +37,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolTipAgregarProducto = new System.Windows.Forms.ToolTip(this.components);
+            this.buttonAgregarProducto = new System.Windows.Forms.Button();
             this.toolTipEliminarProducto = new System.Windows.Forms.ToolTip(this.components);
+            this.buttonEliminarProducto = new System.Windows.Forms.Button();
             this.tableLayoutPanelCentral = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanelTop = new System.Windows.Forms.TableLayoutPanel();
             this.labelCliente = new System.Windows.Forms.Label();
@@ -52,9 +54,12 @@
             this.dateTimePickerFechaOrdenado = new System.Windows.Forms.DateTimePicker();
             this.labelFechaRequerido = new System.Windows.Forms.Label();
             this.labelSubTitulo = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewProductos = new System.Windows.Forms.DataGridView();
@@ -79,28 +84,55 @@
             this.labelProducto = new System.Windows.Forms.Label();
             this.comboBoxProductos = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanelGeneral = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.buttonAgregarProducto = new System.Windows.Forms.Button();
-            this.buttonEliminarProducto = new System.Windows.Forms.Button();
             this.tableLayoutPanelCentral.SuspendLayout();
             this.tableLayoutPanelTop.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
             this.panelFechaRequrido.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProductos)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanelGeneral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
+            // 
+            // buttonAgregarProducto
+            // 
+            this.buttonAgregarProducto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonAgregarProducto.BackgroundImage = global::CapaPresentacion.Properties.Resources.multiply;
+            this.buttonAgregarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonAgregarProducto.Location = new System.Drawing.Point(875, 0);
+            this.buttonAgregarProducto.Margin = new System.Windows.Forms.Padding(0);
+            this.buttonAgregarProducto.Name = "buttonAgregarProducto";
+            this.buttonAgregarProducto.Size = new System.Drawing.Size(48, 40);
+            this.buttonAgregarProducto.TabIndex = 11;
+            this.toolTipAgregarProducto.SetToolTip(this.buttonAgregarProducto, "Agregar Producto a la Lista");
+            this.buttonAgregarProducto.UseVisualStyleBackColor = true;
+            this.buttonAgregarProducto.Click += new System.EventHandler(this.buttonAgregarProducto_Click);
+            // 
+            // buttonEliminarProducto
+            // 
+            this.buttonEliminarProducto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonEliminarProducto.BackgroundImage = global::CapaPresentacion.Properties.Resources.close2;
+            this.buttonEliminarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonEliminarProducto.Location = new System.Drawing.Point(834, 0);
+            this.buttonEliminarProducto.Margin = new System.Windows.Forms.Padding(0);
+            this.buttonEliminarProducto.Name = "buttonEliminarProducto";
+            this.buttonEliminarProducto.Size = new System.Drawing.Size(41, 40);
+            this.buttonEliminarProducto.TabIndex = 10;
+            this.toolTipEliminarProducto.SetToolTip(this.buttonEliminarProducto, "Eliminar Producto seleccionado");
+            this.buttonEliminarProducto.UseVisualStyleBackColor = true;
+            this.buttonEliminarProducto.Click += new System.EventHandler(this.buttonEliminarProducto_Click);
             // 
             // tableLayoutPanelCentral
             // 
@@ -303,6 +335,16 @@
             this.labelSubTitulo.TabIndex = 0;
             this.labelSubTitulo.Text = "DATOS";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.file_folder;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(122, 54);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -334,7 +376,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.label3);
@@ -343,6 +385,28 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(919, 58);
             this.panel1.TabIndex = 24;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.inside;
+            this.pictureBox2.Location = new System.Drawing.Point(848, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(65, 52);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 29;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::CapaPresentacion.Properties.Resources.Floppy_disk_5121;
+            this.pictureBox5.Location = new System.Drawing.Point(777, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(65, 52);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 28;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // label3
             // 
@@ -706,70 +770,6 @@
             this.tableLayoutPanelGeneral.Size = new System.Drawing.Size(934, 661);
             this.tableLayoutPanelGeneral.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.file_folder;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(122, 54);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.inside;
-            this.pictureBox2.Location = new System.Drawing.Point(848, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(65, 52);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 29;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::CapaPresentacion.Properties.Resources.Floppy_disk_5121;
-            this.pictureBox5.Location = new System.Drawing.Point(777, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(65, 52);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 28;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // buttonAgregarProducto
-            // 
-            this.buttonAgregarProducto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonAgregarProducto.BackgroundImage = global::CapaPresentacion.Properties.Resources.multiply;
-            this.buttonAgregarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonAgregarProducto.Location = new System.Drawing.Point(875, 0);
-            this.buttonAgregarProducto.Margin = new System.Windows.Forms.Padding(0);
-            this.buttonAgregarProducto.Name = "buttonAgregarProducto";
-            this.buttonAgregarProducto.Size = new System.Drawing.Size(48, 40);
-            this.buttonAgregarProducto.TabIndex = 11;
-            this.toolTipAgregarProducto.SetToolTip(this.buttonAgregarProducto, "Agregar Producto a la Lista");
-            this.buttonAgregarProducto.UseVisualStyleBackColor = true;
-            this.buttonAgregarProducto.Click += new System.EventHandler(this.buttonAgregarProducto_Click);
-            // 
-            // buttonEliminarProducto
-            // 
-            this.buttonEliminarProducto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonEliminarProducto.BackgroundImage = global::CapaPresentacion.Properties.Resources.close2;
-            this.buttonEliminarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonEliminarProducto.Location = new System.Drawing.Point(834, 0);
-            this.buttonEliminarProducto.Margin = new System.Windows.Forms.Padding(0);
-            this.buttonEliminarProducto.Name = "buttonEliminarProducto";
-            this.buttonEliminarProducto.Size = new System.Drawing.Size(41, 40);
-            this.buttonEliminarProducto.TabIndex = 10;
-            this.toolTipEliminarProducto.SetToolTip(this.buttonEliminarProducto, "Eliminar Producto seleccionado");
-            this.buttonEliminarProducto.UseVisualStyleBackColor = true;
-            this.buttonEliminarProducto.Click += new System.EventHandler(this.buttonEliminarProducto_Click);
-            // 
             // FrmAgregarNuevaOrden
             // 
             this.AllowDrop = true;
@@ -791,9 +791,12 @@
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
             this.panelFechaRequrido.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProductos)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
@@ -804,9 +807,6 @@
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
             this.tableLayoutPanelGeneral.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
