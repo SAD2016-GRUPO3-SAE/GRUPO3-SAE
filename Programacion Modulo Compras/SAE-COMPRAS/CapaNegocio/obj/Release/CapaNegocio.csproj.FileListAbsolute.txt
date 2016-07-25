@@ -1,0 +1,28 @@
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaNegocio\bin\Release\CapaNegocio.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaNegocio\bin\Release\CapaNegocio.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaNegocio\bin\Release\CapaDatos.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaNegocio\bin\Release\CapaDatos.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaNegocio.dll
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaNegocio.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaDatos.dll
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaDatos.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.dll
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaDatos.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaDatos.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\bin\Release\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaNegocio\obj\Release\CapaNegocio.pdb

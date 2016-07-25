@@ -1,0 +1,258 @@
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Empleados.resources
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Categorias.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedores.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Empleados.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaCategoria.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProveedor.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaOrden.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProducto.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoTransporte.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarCategoria.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProveedor.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarEmpleado.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoEmpleado.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenEntregado.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenPendiente.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProducto.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarTransporte.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarEntregado.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarPendiente.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenEntregadoDetalles.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmoOrdenPendienteDetalles.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReportes.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Ordenes.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Productos.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Transporte.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Categorias.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedores.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Empleados.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaCategoria.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProveedor.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaOrden.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProducto.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoTransporte.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarCategoria.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProveedor.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarEmpleado.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoEmpleado.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenEntregado.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenPendiente.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProducto.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarTransporte.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarEntregado.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarPendiente.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenEntregadoDetalles.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmoOrdenPendienteDetalles.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReportes.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Ordenes.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Productos.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Transporte.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Categorias.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedores.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Empleados.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaCategoria.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProveedor.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaOrden.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProducto.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoTransporte.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarCategoria.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarEmpleado.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoEmpleado.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenEntregado.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenPendiente.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProducto.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarTransporte.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarEntregado.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarPendiente.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenEntregadoDetalles.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmoOrdenPendienteDetalles.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReportes.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Ordenes.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Productos.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Transporte.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.Categorias1.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProveedor.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Categorias.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProducto.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProveedor.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarCategoria.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProducto.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaCategoria.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProveedor.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedores.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Empleados.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaOrden.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoTransporte.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarEmpleado.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoEmpleado.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenEntregado.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenPendiente.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarTransporte.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarEntregado.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarPendiente.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenEntregadoDetalles.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmoOrdenPendienteDetalles.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReportes.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Ordenes.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Productos.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Transporte.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Categorias.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProducto.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProveedor.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenPendiente.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarEntregado.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarPendiente.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenEntregadoDetalles.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarCategoria.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenEntregado.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProducto.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaCategoria.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProveedor.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenPendienteDetalles.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReportes.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaOrden.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Ordenes.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Productos.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedores.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Categorias.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProducto.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProveedor.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenPendiente.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarEntregado.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarPendiente.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenEntregadoDetalles.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarCategoria.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenEntregado.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProducto.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaCategoria.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProveedor.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenPendienteDetalles.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReportes.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaOrden.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Ordenes.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Productos.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedores.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.reporte1.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte2.resources
+C:\Users\Carlos\Desktop\SAE_Compras\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte3.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.Categorias.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaOrden.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProducto.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevoProveedor.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenPendiente.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarEntregado.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMarcarPendiente.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenEntregadoDetalles.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarCategoria.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarOrdenEntregado.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProducto.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarNuevaCategoria.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProveedor.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmOrdenPendienteDetalles.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReportes.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.Ordenes.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.Productos.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedores.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte1.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte2.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte3.resources
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\GitHub\GRUPO3-SAE\Programacion Modulo Compras\SAE-COMPRAS\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

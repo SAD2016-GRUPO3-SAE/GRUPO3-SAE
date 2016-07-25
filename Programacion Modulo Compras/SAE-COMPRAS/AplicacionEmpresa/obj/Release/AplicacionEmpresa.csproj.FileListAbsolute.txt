@@ -1,0 +1,51 @@
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.exe.config
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.exe
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaPresentacion.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaPresentacion.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.Properties.Resources.resources
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.exe
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaNegocio.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaDatos.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaNegocio.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaDatos.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.exe.config
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.exe
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.exe
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaPresentacion.dll
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaNegocio.dll
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaDatos.dll
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaPresentacion.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaNegocio.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaDatos.pdb
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.Properties.Resources.resources
+C:\Users\HernanMartin\SkyDrive\Aplicación Empresa\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.exe.config
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.exe
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.exe
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaDatos.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.exe.config
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.exe
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\AplicacionEmpresa.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Release\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.exe
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Release\AplicacionEmpresa.pdb

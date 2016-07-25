@@ -1,6 +1,0 @@
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaNegocio.ConvertedToVBNet\bin\Debug\CapaNegocio.dll
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaNegocio.ConvertedToVBNet\bin\Debug\CapaNegocio.pdb
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaNegocio.ConvertedToVBNet\bin\Debug\CapaDatos.dll
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaNegocio.ConvertedToVBNet\bin\Debug\CapaDatos.pdb
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaNegocio.ConvertedToVBNet\obj\Debug\CapaNegocio.dll
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaNegocio.ConvertedToVBNet\obj\Debug\CapaNegocio.pdb
