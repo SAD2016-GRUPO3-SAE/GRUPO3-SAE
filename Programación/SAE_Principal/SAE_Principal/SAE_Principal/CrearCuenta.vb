@@ -73,7 +73,7 @@ Public Class CrearCuenta
                     MsgBox("No existe el cliente")
                 End If
 
-                Dim cmd As New SqlCommand("insert into tbl_sae_cuentaporcobrar (cpc_identificador, cpc_fecha_inicio, cpc_num_cuotas, cpc_periodo, cpc_fecha_vencimiento, id_socio_negocio) values ('" & identificador.Text & "','" & fecha_inicio.Value & "','" & NoCuotas.Text & "','" & periodo.Text & "','" & fecha_vencimiento.Value & "','" & socio_negocio_box.SelectedValue.ToString & "')", conectar)
+                Dim cmd As New SqlCommand("insert into tbl_sae_cuentaporcobrar (cpc_identificador, cpc_fecha_inicio, cpc_num_cuotas, cpc_periodo, cpc_fecha_vencimiento, id_socio_negocio, cpc_credito) values ('" & identificador.Text & "','" & fecha_inicio.Value & "','" & NoCuotas.Text & "','" & periodo.Text & "','" & fecha_vencimiento.Value & "','" & socio_negocio_box.SelectedValue.ToString & "'," & total_credito.Text & ")", conectar)
                 Dim cmd2 As New SqlCommand("select SCOPE_IDENTITY()", conectar)
 
                 Dim cas As Integer
@@ -83,7 +83,7 @@ Public Class CrearCuenta
                 idCta = cmd2.ExecuteScalar
                 Dim creationDate As New Date
                 Dim queryStringInsert As String
-                queryStringInsert = "insert into dbo.tbl_sae_saldo (id_cuenta, sld_descripcion,sld_saldo, sld__fecha) values  (" & idCta.ToString & ",'" & descripcion.Text & "'," & Abono.Text & ", GETDATE())"
+                queryStringInsert = "insert into dbo.tbl_sae_saldo (id_cuenta, sld_descripcion,sld_saldo, sld__fecha) values  (" & idCta.ToString & ",'" & descripcion.Text & "'," & total_credito.Text & ", GETDATE())"
                 System.Console.WriteLine(queryStringInsert)
                 Dim cmd3 As New SqlCommand(queryStringInsert, conectar)
                 If cas > 0 Then
