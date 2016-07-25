@@ -103,12 +103,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="datos.vb" />
-    <Compile Include="EstadoTodasLasCuentas.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EstadoTodasLasCuentas.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="FondoSAE.Designer.vb">
       <DependentUpon>FondoSAE.vb</DependentUpon>
     </Compile>
@@ -157,10 +151,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrearUsuario.resx">
       <DependentUpon>CrearUsuario.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EstadoTodasLasCuentas.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>EstadoTodasLasCuentas.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="FondoSAE.resx">
       <DependentUpon>FondoSAE.vb</DependentUpon>
