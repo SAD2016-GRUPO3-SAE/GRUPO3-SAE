@@ -424,7 +424,6 @@ Partial Class CrearCuenta
         Me.Controls.Add(Me.socio_negocio_box)
         Me.Controls.Add(Me.Label1)
         Me.Name = "CrearCuenta"
-        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Crear Cuenta"
         Me.TabControl1.ResumeLayout(False)

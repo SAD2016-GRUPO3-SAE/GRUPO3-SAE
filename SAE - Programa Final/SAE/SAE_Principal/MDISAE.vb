@@ -4,6 +4,7 @@
         Fondo.MdiParent = Me
         Fondo.Dock = DockStyle.Fill
         Fondo.Show()
+
     End Sub
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs)
