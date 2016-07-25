@@ -1,0 +1,94 @@
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.exe.config
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.exe
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaPresentacion.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaPresentacion.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.Properties.Resources.resources
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.exe
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.exe.config
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.exe
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.exe
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.exe.config
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.exe
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaNegocio.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaPresentacion.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaNegocio.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.Properties.Resources.resources
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.exe
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.exe.config
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.exe
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.exe
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\AplicacionEmpresa.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaNegocio.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaPresentacion.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaNegocio.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.Properties.Resources.resources
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaPresentacion.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaNegocio.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaPresentacion.pdb
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaNegocio.pdb
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.exe.config
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.exe
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.pdb
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.Properties.Resources.resources
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.exe
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.exe.config
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.exe
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.exe
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaNegocio.dll
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.Properties.Resources.resources
+C:\Users\Carlos\Desktop\SAE_Compras\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.exe.config
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.exe
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.exe
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\SAE_Compras.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaPresentacion.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaNegocio.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaPresentacion.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaNegocio.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\obj\Debug\SAE_Compras.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\AplicacionEmpresa\obj\Debug\AplicacionEmpresa.csproj.GenerateResource.Cache

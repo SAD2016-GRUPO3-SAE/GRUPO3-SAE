@@ -1,0 +1,38 @@
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\HernánMartín\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Seminario Sistemas\programas apoyo\Proyecto Base\Aplicacion Empresa v1.0\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Proyecto\AplicacionEmpresa\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\mgt03499\Desktop\Proyecto\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\Proyecto final\SAE_Compras V6\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Carlos\Desktop\SAE_Compras\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache

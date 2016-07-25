@@ -1,5 +1,0 @@
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaDatos.ConvertedToVBNet\bin\Debug\CapaDatos.dll.config
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaDatos.ConvertedToVBNet\bin\Debug\CapaDatos.dll
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaDatos.ConvertedToVBNet\bin\Debug\CapaDatos.pdb
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaDatos.ConvertedToVBNet\obj\Debug\CapaDatos.dll
-C:\Users\mgt03499\Desktop\SAE\AplicacionEmpresa\CapaDatos.ConvertedToVBNet\obj\Debug\CapaDatos.pdb

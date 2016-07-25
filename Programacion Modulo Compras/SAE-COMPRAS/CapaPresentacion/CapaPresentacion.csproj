@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29B6E29B-E9AB-4F65-808B-045FF5C5A38F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Categorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categorias.Designer.cs">
+      <DependentUpon>Categorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBSAEFINALDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBSAEFINALDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarNuevaOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarNuevaOrden.designer.cs">
+      <DependentUpon>FrmAgregarNuevaOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarNuevoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarNuevoProducto.Designer.cs">
+      <DependentUpon>FrmAgregarNuevoProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarNuevoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarNuevoProveedor.Designer.cs">
+      <DependentUpon>FrmAgregarNuevoProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarOrdenPendiente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarOrdenPendiente.designer.cs">
+      <DependentUpon>FrmEditarOrdenPendiente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMarcarPendiente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMarcarPendiente.Designer.cs">
+      <DependentUpon>FrmMarcarPendiente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrdenEntregadoDetalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrdenEntregadoDetalles.Designer.cs">
+      <DependentUpon>FrmOrdenEntregadoDetalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarCategoria.Designer.cs">
+      <DependentUpon>FrmEditarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarOrdenEntregado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarOrdenEntregado.Designer.cs">
+      <DependentUpon>FrmEditarOrdenEntregado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarProducto.Designer.cs">
+      <DependentUpon>FrmEditarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarNuevaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarNuevaCategoria.Designer.cs">
+      <DependentUpon>FrmAgregarNuevaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarProveedor.Designer.cs">
+      <DependentUpon>FrmEditarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.Designer.cs">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrdenPendienteDetalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrdenPendienteDetalles.Designer.cs">
+      <DependentUpon>FrmOrdenPendienteDetalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMarcarEntregado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMarcarEntregado.Designer.cs">
+      <DependentUpon>FrmMarcarEntregado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ordenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenes.Designer.cs">
+      <DependentUpon>Ordenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores.designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte1.Designer.cs">
+      <DependentUpon>Reporte1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte2.Designer.cs">
+      <DependentUpon>Reporte2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte3.Designer.cs">
+      <DependentUpon>Reporte3.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{7c0ea691-8b10-4c2e-9946-77944238a281}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Categorias.resx">
+      <DependentUpon>Categorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarNuevaOrden.resx">
+      <DependentUpon>FrmAgregarNuevaOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarNuevoProducto.resx">
+      <DependentUpon>FrmAgregarNuevoProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarNuevoProveedor.resx">
+      <DependentUpon>FrmAgregarNuevoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarOrdenPendiente.resx">
+      <DependentUpon>FrmEditarOrdenPendiente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMarcarEntregado.resx">
+      <DependentUpon>FrmMarcarEntregado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMarcarPendiente.resx">
+      <DependentUpon>FrmMarcarPendiente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrdenEntregadoDetalles.resx">
+      <DependentUpon>FrmOrdenEntregadoDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarCategoria.resx">
+      <DependentUpon>FrmEditarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarOrdenEntregado.resx">
+      <DependentUpon>FrmEditarOrdenEntregado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarProducto.resx">
+      <DependentUpon>FrmEditarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarNuevaCategoria.resx">
+      <DependentUpon>FrmAgregarNuevaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarProveedor.resx">
+      <DependentUpon>FrmEditarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrdenPendienteDetalles.resx">
+      <DependentUpon>FrmOrdenPendienteDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenes.resx">
+      <DependentUpon>Ordenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte1.resx">
+      <DependentUpon>Reporte1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte2.resx">
+      <DependentUpon>Reporte2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte3.resx">
+      <DependentUpon>Reporte3.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBSAEFINALDataSet.xsc">
+      <DependentUpon>DBSAEFINALDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBSAEFINALDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBSAEFINALDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBSAEFINALDataSet.xss">
+      <DependentUpon>DBSAEFINALDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\favicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phonebook.png" />
+    <None Include="Resources\FondoSAE.jpg" />
+    <None Include="Resources\equal.png" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\check1.png" />
+    <None Include="Resources\perfect1.png" />
+    <None Include="Resources\stamp.png" />
+    <None Include="Resources\setting.png" />
+    <None Include="Resources\msg.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\contact1.png" />
+    <None Include="Resources\file-folder.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\contact.png" />
+    <None Include="Resources\pngs\close2.png" />
+    <None Include="Resources\pngs\refresh3.png" />
+    <None Include="Resources\pngs\pen.png" />
+    <None Include="Resources\pngs\add.png" />
+    <None Include="Resources\pngs\multiply.png" />
+    <None Include="Resources\pngs\inside.png" />
+    <None Include="Resources\pngs\Floppy_disk-512.png" />
+    <None Include="Resources\pngs\phonebook1.png" />
+    <None Include="Resources\Floppy_disk-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="img\inicio.png" />
+    <None Include="Resources\FondoSAE1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
