@@ -1,0 +1,1415 @@
+USE [DB3]
+//****CONEXION A SERVIDOR IP Data Base:  DB3 - IP:168.234.74.21 - Usuario: db3admin - Contraseña. db3admin$ *******/
+/******CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS  ******/
+/******CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS  ******/
+/******CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS  ******/
+/******CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS CARLOS  ******/
+/******************************************************************************************************************************************/
+GO
+/****** Object:  Schema [Compras]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+CREATE SCHEMA [Compras]
+GO
+/****** Object:  Schema [Configuracion]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+CREATE SCHEMA [Configuracion]
+GO
+/****** Object:  Schema [Produccion]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+CREATE SCHEMA [Produccion]
+GO
+/****** Object:  Schema [Reportes]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+CREATE SCHEMA [Reportes]
+GO
+/****** Object:  Table [Compras].[OrdenDetalles]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [Compras].[OrdenDetalles](
+	[id_orden] [int] NOT NULL,
+	[id_producto] [int] NOT NULL,
+	[precio_unitario] [money] NOT NULL,
+	[cantidad] [int] NOT NULL,
+	[descuento] [numeric](5, 2) NOT NULL CONSTRAINT [DF_OrdenDetalles_descuento]  DEFAULT ((0)),
+ CONSTRAINT [PK_OrdenDetalles] PRIMARY KEY CLUSTERED 
+(
+	[id_orden] ASC,
+	[id_producto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [Compras].[Ordenes]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [Compras].[Ordenes](
+	[id_orden] [int] IDENTITY(1,1) NOT NULL,
+	[id_proveedor] [int] NOT NULL,
+	[fecha_ordenado] [datetime] NOT NULL CONSTRAINT [DF_Ordenes_fecha_ordenado]  DEFAULT (getdate()),
+	[fecha_requerido] [datetime] NULL,
+	[fecha_entregado] [datetime] NULL,
+	[codigo]  AS ('PED-'+CONVERT([varchar],[id_orden])),
+ CONSTRAINT [PK_Ordenes] PRIMARY KEY CLUSTERED 
+(
+	[id_orden] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [Compras].[Proveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [Compras].[Proveedor](
+	[id_proveedor] [int] IDENTITY(1,1) NOT NULL,
+	[nombre_proveedor] [varchar](50) NOT NULL,
+	[direccion] [varchar](50) NOT NULL,
+	[NIT] [varchar](50) NOT NULL,
+	[telefono] [varchar](50) NULL,
+	[email] [varchar](50) NULL,
+	[codigo]  AS ('PRO-'+CONVERT([varchar],[id_proveedor])),
+ CONSTRAINT [PK_Proveedor] PRIMARY KEY CLUSTERED 
+(
+	[id_proveedor] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [Produccion].[Categorias]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [Produccion].[Categorias](
+	[id_categoria] [int] IDENTITY(1,1) NOT NULL,
+	[nombre_categoria] [varchar](50) NOT NULL,
+	[descripcion] [varchar](150) NULL,
+	[codigo]  AS ('CAT-'+CONVERT([varchar],[id_categoria])),
+ CONSTRAINT [PK_Categorias] PRIMARY KEY CLUSTERED 
+(
+	[id_categoria] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [Produccion].[Productos]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [Produccion].[Productos](
+	[id_producto] [int] IDENTITY(1,1) NOT NULL,
+	[nombre_producto] [varchar](50) NOT NULL,
+	[id_categoria] [int] NOT NULL,
+	[precio_unitario] [money] NULL,
+	[detalles] [varchar](150) NULL,
+	[codigo]  AS ('PRO-'+CONVERT([varchar],[id_producto])),
+ CONSTRAINT [PK_Productos] PRIMARY KEY CLUSTERED 
+(
+	[id_producto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [Reportes].[FechasLookup]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [Reportes].[FechasLookup](
+	[Fecha] [int] NOT NULL,
+	[Año] [char](4) NULL,
+	[NombreMes] [varchar](12) NULL,
+	[NumeroMes] [tinyint] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Fecha] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  View [Compras].[v_Ordenes]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW [Compras].[v_Ordenes]
+WITH SCHEMABINDING 
+AS
+SELECT        Compras.Ordenes.id_orden AS ID, Compras.Ordenes.codigo AS CÓDIGO, Compras.Proveedor.nombre_proveedor AS proveedor,  
+                         Compras.Ordenes.fecha_ordenado AS ORDENADO, Compras.Ordenes.fecha_requerido AS REQUERIDO, Compras.Ordenes.fecha_entregado AS ENTREGADO 	
+FROM            Compras.Ordenes INNER JOIN Compras.Proveedor ON Compras.Ordenes.id_proveedor = Compras.Proveedor.id_proveedor 
+                         
+
+
+GO
+/****** Object:  View [Compras].[v_Ordenesproveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE VIEW [Compras].[v_Ordenesproveedor]
+AS
+SELECT        proveedor, COUNT(ID) AS Ordenes
+FROM            Compras.v_Ordenes
+GROUP BY proveedor
+
+
+
+GO
+/****** Object:  View [Produccion].[v_Productos_NombreCategorias]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE VIEW [Produccion].[v_Productos_NombreCategorias]
+WITH SCHEMABINDING
+AS
+SELECT        Produccion.Productos.id_producto AS ID, Produccion.Productos.codigo AS CÓDIGO, Produccion.Productos.nombre_producto AS NOMBRE, Produccion.Categorias.nombre_categoria AS CATEGORÍA, 
+                         Produccion.Productos.precio_unitario AS PRECIO, Produccion.Productos.detalles AS [DETALLES DEL PRODUCTO]
+FROM            Produccion.Productos INNER JOIN
+                         Produccion.Categorias ON Produccion.Productos.id_categoria = Produccion.Categorias.id_categoria
+
+GO
+SET ANSI_PADDING ON
+
+GO
+/****** Object:  Index [UC_nombre_proveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+ALTER TABLE [Compras].[Proveedor] ADD  CONSTRAINT [UC_nombre_proveedor] UNIQUE NONCLUSTERED 
+(
+	[nombre_proveedor] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+
+GO
+/****** Object:  Index [UC_nombre_categoria]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+ALTER TABLE [Produccion].[Categorias] ADD  CONSTRAINT [UC_nombre_categoria] UNIQUE NONCLUSTERED 
+(
+	[nombre_categoria] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+
+GO
+/****** Object:  Index [UC_nombre_producto]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+ALTER TABLE [Produccion].[Productos] ADD  CONSTRAINT [UC_nombre_producto] UNIQUE NONCLUSTERED 
+(
+	[nombre_producto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+ALTER TABLE [Compras].[OrdenDetalles]  WITH CHECK ADD  CONSTRAINT [FK_OrdenDetalles_Ordenes] FOREIGN KEY([id_orden])
+REFERENCES [Compras].[Ordenes] ([id_orden])
+ON DELETE CASCADE
+GO
+ALTER TABLE [Compras].[OrdenDetalles] CHECK CONSTRAINT [FK_OrdenDetalles_Ordenes]
+GO
+ALTER TABLE [Compras].[OrdenDetalles]  WITH CHECK ADD  CONSTRAINT [FK_OrdenDetalles_Productos] FOREIGN KEY([id_producto])
+REFERENCES [Produccion].[Productos] ([id_producto])
+GO
+ALTER TABLE [Compras].[OrdenDetalles] CHECK CONSTRAINT [FK_OrdenDetalles_Productos]
+GO
+ALTER TABLE [Compras].[Ordenes]  WITH CHECK ADD  CONSTRAINT [FK_Ordenes_Proveedor] FOREIGN KEY([id_proveedor])
+REFERENCES [Compras].[Proveedor] ([id_proveedor])
+GO
+ALTER TABLE [Compras].[Ordenes] CHECK CONSTRAINT [FK_Ordenes_Proveedor]
+GO
+ALTER TABLE [Produccion].[Productos]  WITH CHECK ADD  CONSTRAINT [FK_Productos_Categorias] FOREIGN KEY([id_categoria])
+REFERENCES [Produccion].[Categorias] ([id_categoria])
+GO
+ALTER TABLE [Produccion].[Productos] CHECK CONSTRAINT [FK_Productos_Categorias]
+GO
+ALTER TABLE [Compras].[OrdenDetalles]  WITH CHECK ADD  CONSTRAINT [CHK_OrdenDetalles_positivo] CHECK  (([precio_unitario]>=(0) AND [cantidad]>=(0)))
+GO
+ALTER TABLE [Compras].[OrdenDetalles] CHECK CONSTRAINT [CHK_OrdenDetalles_positivo]
+GO
+ALTER TABLE [Compras].[Ordenes]  WITH CHECK ADD  CONSTRAINT [CHK_Ordenes_fechas_ordenado_entregado] CHECK  (([fecha_entregado]>=[fecha_ordenado]))
+GO
+ALTER TABLE [Compras].[Ordenes] CHECK CONSTRAINT [CHK_Ordenes_fechas_ordenado_entregado]
+GO
+ALTER TABLE [Compras].[Ordenes]  WITH CHECK ADD  CONSTRAINT [CHK_Ordenes_fechas_ordenado_requerido] CHECK  (([fecha_requerido]>=[fecha_ordenado]))
+GO
+ALTER TABLE [Compras].[Ordenes] CHECK CONSTRAINT [CHK_Ordenes_fechas_ordenado_requerido]
+GO
+ALTER TABLE [Produccion].[Categorias]  WITH CHECK ADD  CONSTRAINT [CHK_NombreCategoriaVacio] CHECK  ((datalength([nombre_categoria])>(0)))
+GO
+ALTER TABLE [Produccion].[Categorias] CHECK CONSTRAINT [CHK_NombreCategoriaVacio]
+GO
+ALTER TABLE [Produccion].[Productos]  WITH CHECK ADD  CONSTRAINT [CHK_Productos_positivo] CHECK  (([precio_unitario]>=(0)))
+GO
+ALTER TABLE [Produccion].[Productos] CHECK CONSTRAINT [CHK_Productos_positivo]
+GO
+/****** Object:  StoredProcedure [Compras].[BuscarOrdenEntregado]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[BuscarOrdenEntregado]
+@Orden_Buscado AS VARCHAR(15) --VER
+AS 
+BEGIN
+SET NOCOUNT ON
+SELECT [ID], [CÓDIGO], [proveedor], [ORDENADO], [ENTREGADO]
+FROM Compras.v_Ordenes
+WHERE [CÓDIGO] LIKE '%' + @Orden_Buscado + '%'
+AND [ENTREGADO] IS NOT NULL
+ORDER BY [ID]
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[BuscarOrdenPendiente]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[BuscarOrdenPendiente]
+@Orden_Buscado AS VARCHAR(15) --VER
+AS 
+BEGIN
+SET NOCOUNT ON
+SELECT [ID], [CÓDIGO], [proveedor], [ORDENADO], [REQUERIDO]
+FROM Compras.v_Ordenes
+WHERE [CÓDIGO] LIKE '%' + @Orden_Buscado + '%'
+AND [ENTREGADO] IS NULL
+ORDER BY [ID]
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[Buscarproveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[Buscarproveedor]
+@NombreproveedorBuscado AS VARCHAR(55)
+AS 
+BEGIN
+SET NOCOUNT ON
+SELECT [id_proveedor] AS [ID], [codigo] AS [CÓDIGO], [nombre_proveedor] AS [proveedor],  [direccion] AS [DIRECCIÓN], [nit] AS [NIT], [telefono] AS [TELÉFONO],[email] AS [EMAIL]
+FROM Compras.Proveedor
+WHERE nombre_proveedor LIKE '%' + @NombreproveedorBuscado + '%'
+ORDER BY [ID]
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[EditarOrden]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[EditarOrden]
+@Id_Orden INT,
+@Nombre_proveedor VARCHAR(55),
+@Fecha_Ordenado DATETIME,
+@Fecha_Requerido DATETIME = NULL,
+@Fecha_Entregado DATETIME = NULL
+AS
+BEGIN
+SET NOCOUNT ON
+DECLARE 
+@Id_proveedor INT
+
+DELETE FROM Compras.OrdenDetalles
+WHERE id_orden = @Id_Orden;
+
+SET @Id_proveedor = (SELECT id_proveedor FROM Compras.Proveedor
+					 WHERE nombre_proveedor = NULLIF(RTRIM(LTRIM(@Nombre_proveedor)),''));
+
+IF @Id_proveedor IS NOT NULL 
+BEGIN
+UPDATE Compras.Ordenes 
+SET id_proveedor = @Id_proveedor,
+fecha_ordenado = NULLIF(RTRIM(LTRIM(@Fecha_Ordenado)),''),
+fecha_requerido = NULLIF(RTRIM(LTRIM(@Fecha_Requerido)),''),
+fecha_entregado = NULLIF(RTRIM(LTRIM(@Fecha_Entregado)),'')
+WHERE id_orden = @Id_Orden
+END
+ELSE
+BEGIN
+RAISERROR('No se pudo editar el orden. El proveedor, transportista o empleado no existe.',16,1);
+END
+END
+
+GO
+/****** Object:  StoredProcedure [Compras].[EditarOrdenDetalles]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [Compras].[EditarOrdenDetalles]
+@Id_Orden INT,
+@Nombre_Producto VARCHAR(55),
+@Cantidad INT,
+@Precio_Unitario MONEY,
+@Descuento NUMERIC(5,2)
+AS
+BEGIN
+SET NOCOUNT ON
+DECLARE 
+@Id_Producto INT
+
+SET @Id_Producto = (SELECT id_producto FROM Produccion.Productos
+					 WHERE nombre_producto = NULLIF(RTRIM(LTRIM(@Nombre_Producto)),''));
+
+IF @Id_Producto IN (SELECT id_producto FROM Compras.OrdenDetalles
+					WHERE id_orden = @Id_Orden)
+BEGIN
+UPDATE Compras.OrdenDetalles
+SET precio_unitario = NULLIF(RTRIM(LTRIM(@Precio_Unitario)),''),
+cantidad = NULLIF(RTRIM(LTRIM(@Cantidad)),''),
+descuento = NULLIF(RTRIM(LTRIM(@Descuento)),'')
+WHERE id_producto = @Id_Producto
+AND id_orden = @Id_Orden
+END
+ELSE
+BEGIN
+INSERT INTO Compras.OrdenDetalles (id_orden, id_producto, precio_unitario, cantidad, descuento)
+VALUES (@Id_Orden, 
+@Id_Producto, 
+NULLIF(RTRIM(LTRIM(@Precio_Unitario)),''),
+NULLIF(RTRIM(LTRIM(@Cantidad)),''),
+NULLIF(RTRIM(LTRIM(@Descuento)),'')
+);
+END;
+END
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[Editarproveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[Editarproveedor]
+@Id_proveedor INT,
+@Nombre_proveedor VARCHAR(55),
+@Direccion VARCHAR(55),
+@Nit VARCHAR(55),
+@Telefono VARCHAR(55),
+@Email VARCHAR(55) 
+AS
+BEGIN
+SET NOCOUNT ON
+UPDATE Compras.Proveedor
+SET nombre_proveedor = NULLIF((RTRIM(LTRIM(@Nombre_proveedor))),''),
+direccion = NULLIF((RTRIM(LTRIM(@Direccion))),''),
+nit = NULLIF((RTRIM(LTRIM(@NIT))),''),
+telefono = NULLIF((RTRIM(LTRIM(@Telefono))),''),
+email = NULLIF((RTRIM(LTRIM(@Email))),'')
+WHERE id_proveedor = @Id_proveedor
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[EliminarOrden]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[EliminarOrden]
+@Id_Orden INT
+AS
+BEGIN
+SET NOCOUNT ON;
+DELETE FROM Compras.Ordenes
+WHERE id_orden = @Id_Orden
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[Eliminarproveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[Eliminarproveedor]
+@Id_proveedor INT
+AS
+BEGIN
+SET NOCOUNT ON;
+DELETE FROM Compras.Proveedor
+WHERE id_proveedor = @Id_proveedor
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[InsertarOrden]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[InsertarOrden]
+@Nombre_proveedor VARCHAR(55),
+@Fecha_Ordenado DATETIME,
+@Fecha_Requerido DATETIME = NULL
+AS
+BEGIN
+SET NOCOUNT ON
+DECLARE 
+@Id_proveedor INT
+
+SET @Id_proveedor = (SELECT id_proveedor FROM Compras.Proveedor
+					 WHERE nombre_proveedor = NULLIF(RTRIM(LTRIM(@Nombre_proveedor)),''));
+IF @Id_proveedor IS NOT NULL 
+BEGIN
+INSERT INTO Compras.Ordenes (id_proveedor, fecha_ordenado, fecha_requerido)
+VALUES (@Id_proveedor, 
+NULLIF(RTRIM(LTRIM(@Fecha_Ordenado)),''),
+NULLIF(RTRIM(LTRIM(@Fecha_Requerido)),'')
+);
+END
+ELSE
+BEGIN
+RAISERROR('No se pudo  el orden. El proveedor no existe.',16,1);
+END
+END
+
+GO
+/****** Object:  StoredProcedure [Compras].[InsertarOrdenDetalles]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[InsertarOrdenDetalles]
+@Nombre_Producto VARCHAR(55),
+@Cantidad INT,
+@Precio_Unitario MONEY,
+@Descuento NUMERIC(5,2)
+AS
+BEGIN
+SET NOCOUNT ON
+DECLARE 
+@Id_Producto INT,
+@Id_Orden INT
+
+SET @Id_Orden = (SELECT MAX(id_orden) FROM Compras.Ordenes)
+
+SET @Id_Producto = (SELECT id_producto FROM Produccion.Productos
+					 WHERE nombre_producto = NULLIF(RTRIM(LTRIM(@Nombre_Producto)),''));
+
+IF @Id_Producto IS NOT NULL 
+BEGIN
+INSERT INTO Compras.OrdenDetalles (id_orden, id_producto, precio_unitario, cantidad, descuento)
+VALUES (@Id_Orden, 
+@Id_Producto, 
+NULLIF(RTRIM(LTRIM(@Precio_Unitario)),''),
+NULLIF(RTRIM(LTRIM(@Cantidad)),''),
+NULLIF(RTRIM(LTRIM(@Descuento)),'')
+);
+END
+ELSE
+BEGIN
+RAISERROR('No se pudo insertar el producto. El numero de orden o producto no existe.',16,1);
+END
+END
+
+GO
+/****** Object:  StoredProcedure [Compras].[Insertarproveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[Insertarproveedor]
+@Nombre_proveedor VARCHAR(55),
+@Direccion VARCHAR(55),
+@NIT VARCHAR(55),
+@Telefono VARCHAR(55),
+@Email VARCHAR(55)
+AS
+BEGIN
+SET NOCOUNT ON;
+INSERT INTO Compras.Proveedor (nombre_proveedor, direccion, nit, telefono, email)
+VALUES (
+NULLIF((RTRIM(LTRIM(@Nombre_proveedor))),''),
+NULLIF((RTRIM(LTRIM(@Direccion))),''),
+NULLIF((RTRIM(LTRIM(@Nit))),''),
+NULLIF((RTRIM(LTRIM(@Telefono))),''),
+NULLIF((RTRIM(LTRIM(@Email))),'')
+);
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[ListaProveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[ListaProveedor]
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT [id_proveedor] AS [ID], [nombre_proveedor] AS [NOMBRE]
+FROM Compras.Proveedor
+ORDER BY [NOMBRE]
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[MarcarEntregadoPendiente]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[MarcarEntregadoPendiente]
+@Id_Orden INT,
+@Fecha_Entregado DATETIME = NULL
+AS
+BEGIN
+SET NOCOUNT ON
+UPDATE Compras.Ordenes 
+SET fecha_entregado = NULLIF(RTRIM(LTRIM(@Fecha_Entregado)),'')
+WHERE id_orden = @Id_Orden
+END;
+
+GO
+/****** Object:  StoredProcedure [Compras].[MostrarOrdenDetalles]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[MostrarOrdenDetalles]
+@Id_Orden INT
+AS
+BEGIN
+SET NOCOUNT ON
+IF 
+@Id_Orden IN (SELECT id_orden FROM Compras.Ordenes)
+BEGIN
+SELECT PP.codigo AS [CÓDIGO], PP.nombre_producto AS [PRODUCTO], PD.cantidad AS [CANT.], PD.precio_unitario AS [PRECIO], 
+PD.descuento AS [DESC.]
+FROM Compras.OrdenDetalles AS PD
+INNER JOIN Produccion.Productos AS PP
+ON PD.id_producto = PP.id_producto
+WHERE id_orden = @Id_Orden
+ORDER BY [PRODUCTO], [CÓDIGO]
+END
+ELSE
+BEGIN
+RAISERROR('No se puede mostrar el detalle del orden. El orden no existe.',16,1);
+END
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[MostrarOrdenesEntregados]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[MostrarOrdenesEntregados]
+@NumeroPagina INT,
+@RegistrosPorPagina INT
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT [ID], [CÓDIGO], [proveedor],[ORDENADO], [ENTREGADO]
+FROM Compras.v_Ordenes
+WHERE [ENTREGADO] IS NOT NULL
+ORDER BY [ENTREGADO] DESC, [CÓDIGO] DESC
+OFFSET (@NumeroPagina - 1) * @RegistrosPorPagina ROWS
+FETCH NEXT @RegistrosPorPagina ROWS ONLY
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[MostrarOrdenesPendientes]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[MostrarOrdenesPendientes]
+@NumeroPagina INT,
+@RegistrosPorPagina INT
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT [ID], [CÓDIGO], [proveedor], [ORDENADO], [REQUERIDO]
+FROM Compras.v_Ordenes
+WHERE [ENTREGADO] IS NULL
+ORDER BY [ORDENADO] ASC, [CÓDIGO] DESC
+OFFSET (@NumeroPagina - 1) * @RegistrosPorPagina ROWS
+FETCH NEXT @RegistrosPorPagina ROWS ONLY
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[MostrarProveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[MostrarProveedor]
+@NumeroPagina INT,
+@RegistrosPorPagina INT
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT [id_proveedor] AS [ID], [codigo] AS [CÓDIGO], [nombre_proveedor] AS [proveedor], [direccion] AS [DIRECCIÓN], 
+[nit] AS [NIT], [telefono] AS [TELÉFONO], [email] AS [EMAIL]
+FROM Compras.Proveedor
+ORDER BY [proveedor], [ID]
+OFFSET (@NumeroPagina - 1) * @RegistrosPorPagina ROWS
+FETCH NEXT @RegistrosPorPagina ROWS ONLY
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[TamañoOrdenesEntregados]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROCEDURE [Compras].[TamañoOrdenesEntregados]
+@RegistrosPorPagina INT,
+@TotalPaginas INT OUTPUT
+AS
+DECLARE @CantidadFilas AS INT
+BEGIN
+SET NOCOUNT ON
+SET @CantidadFilas = (SELECT COUNT([ID]) FROM Compras.v_Ordenes
+					  WHERE [ENTREGADO] IS NOT NULL)
+SET @TotalPaginas = @CantidadFilas / @RegistrosPorPagina
+IF ((@CantidadFilas % @RegistrosPorPagina) > 0)
+BEGIN
+	SET @TotalPaginas = @TotalPaginas + 1
+	RETURN;
+END
+ELSE
+BEGIN
+	SET @TotalPaginas = @TotalPaginas
+END
+IF @TotalPaginas = 0
+BEGIN
+SET @TotalPaginas = 1
+END
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[TamañoOrdenesPendientes]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROCEDURE [Compras].[TamañoOrdenesPendientes]
+@RegistrosPorPagina INT,
+@TotalPaginas INT OUTPUT
+AS
+DECLARE @CantidadFilas AS INT
+BEGIN
+SET NOCOUNT ON
+SET @CantidadFilas = (SELECT COUNT([ID]) FROM Compras.v_Ordenes
+					  WHERE [ENTREGADO] IS NULL)
+SET @TotalPaginas = @CantidadFilas / @RegistrosPorPagina
+IF ((@CantidadFilas % @RegistrosPorPagina) > 0)
+BEGIN
+	SET @TotalPaginas = @TotalPaginas + 1
+	RETURN;
+END
+ELSE
+BEGIN
+	SET @TotalPaginas = @TotalPaginas
+END
+IF @TotalPaginas = 0
+BEGIN
+SET @TotalPaginas = 1
+END
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Compras].[TamañoProveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Compras].[TamañoProveedor]
+@RegistrosPorPagina INT,
+@TotalPaginas INT OUTPUT
+AS
+DECLARE @CantidadFilas AS INT
+BEGIN
+SET NOCOUNT ON
+SET @CantidadFilas = (SELECT COUNT(id_proveedor) FROM Compras.Proveedor)
+SET @TotalPaginas = @CantidadFilas / @RegistrosPorPagina
+IF ((@CantidadFilas % @RegistrosPorPagina) > 0)
+BEGIN
+	SET @TotalPaginas = @TotalPaginas + 1
+	RETURN;
+END
+ELSE
+BEGIN
+	SET @TotalPaginas = @TotalPaginas
+END
+IF @TotalPaginas = 0
+BEGIN
+SET @TotalPaginas = 1
+END
+END;
+
+
+GO
+/****** Object:  StoredProcedure [Configuracion].[EliminarCopiaSeguridad]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [Configuracion].[EliminarCopiaSeguridad]
+@Id_CopiaSeguridad AS INT
+AS
+BEGIN
+DELETE FROM msdb.dbo.backupset
+WHERE media_set_id = @Id_CopiaSeguridad
+END;
+
+GO
+/****** Object:  StoredProcedure [Configuracion].[GenerarCopiaSeguridad]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [Configuracion].[GenerarCopiaSeguridad]
+AS
+DECLARE @NombreArchivo VARCHAR(1000)
+
+SET @NombreArchivo = (SELECT N'C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\Backup\DBSAEFINAL_' +
+REPLACE(REPLACE(CONVERT(VARCHAR(500), GETDATE(), 120),':','_'), ' ','_') + '.bak');
+
+BACKUP DATABASE [DBSAEFINAL]
+TO DISK = @NombreArchivo
+WITH DESCRIPTION = N'Copia de Seguridad para restaurar la base de datos DBSAEFINAL',
+NOFORMAT,
+INIT,
+NAME = N'DBSAEFINAL',
+SKIP,
+NOREWIND,
+NOUNLOAD,
+STATS = 10,
+CHECKSUM;
+
+GO
+/****** Object:  StoredProcedure [Configuracion].[MostrarCopiasSeguridad]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [Configuracion].[MostrarCopiasSeguridad]
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT msdb.dbo.backupmediafamily.media_set_id AS [ID], REPLACE(physical_device_name, N'C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\Backup\','')
+AS [NOMBRE], CONVERT(VARCHAR(100),backup_start_date,120) AS [FECHA] FROM msdb.dbo.backupmediafamily
+INNER JOIN msdb.dbo.backupset    
+ON msdb.dbo.backupmediafamily.media_set_id = msdb.dbo.backupset.media_set_id
+ORDER BY [FECHA] DESC
+
+END;
+
+GO
+/****** Object:  StoredProcedure [dbo].[Pivot]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[Pivot]
+AS
+BEGIN
+DECLARE @CONTADOR AS INT = 1
+DECLARE @CONTADOR2 AS INT = 1
+DECLARE @CADENA AS VARCHAR(MAX) = ''
+WHILE @CONTADOR < (SELECT COUNT(id_producto)
+				   FROM Produccion.Productos)
+BEGIN
+	IF EXISTS(SELECT id_producto
+	   FROM Compras.OrdenDetalles
+       WHERE id_producto = @CONTADOR)
+	BEGIN
+		IF (@CONTADOR2 = 1)
+		BEGIN
+			SET @CONTADOR2 = 2
+			SET @CADENA =  @CADENA + '[' + (SELECT DISTINCT nombre_producto
+								            FROM Compras.OrdenDetalles AS PD
+										    INNER JOIN Produccion.Productos AS PP
+										    ON PD.id_producto = PP.id_producto
+					                        WHERE PD.id_producto = @CONTADOR) + ']'
+		END
+		ELSE BEGIN
+			SET @CADENA =  @CADENA + ', [' + (SELECT DISTINCT nombre_producto
+											  FROM Compras.OrdenDetalles AS PD
+											  INNER JOIN Produccion.Productos AS PP
+											  ON PD.id_producto = PP.id_producto
+					                          WHERE PD.id_producto = @CONTADOR) + ']'
+		END 
+	END
+	SET @CONTADOR = @CONTADOR + 1
+END
+
+DECLARE @PIVOTEO AS VARCHAR(MAX) = ''
+SET @PIVOTEO = 'SELECT nombre_proveedor AS proveedor, ' + @CADENA + '
+				FROM 
+				(SELECT VC.nombre_proveedor, PP.nombre_producto, cantidad
+				FROM  Compras.OrdenDetalles AS PD
+				INNER JOIN Produccion.Productos AS PP
+				ON PD.id_producto = PP.id_producto
+				INNER JOIN Compras.Ordenes AS VP
+				ON PD.id_orden = VP.id_orden
+				INNER JOIN Compras.Proveedor AS VC
+				ON VP.id_proveedor = VC.id_proveedor) p
+				PIVOT
+				(avg (cantidad)
+				FOR nombre_producto IN (' + @CADENA + ')
+				) AS PVT;'
+EXEC (@PIVOTEO)
+END
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[BuscarCategoria]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[BuscarCategoria]
+@NombreBuscado AS VARCHAR(55)
+AS 
+BEGIN
+SET NOCOUNT ON
+SELECT [id_categoria] AS [ID], [codigo] AS [CÓDIGO], [nombre_categoria] AS [NOMBRE], [descripcion] AS [DESCRIPCIÓN]
+FROM Produccion.Categorias
+WHERE nombre_categoria LIKE '%' + @NombreBuscado + '%'
+ORDER BY [ID]
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[BuscarProducto]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[BuscarProducto]
+@NombreBuscado AS VARCHAR(55)
+AS 
+BEGIN
+SET NOCOUNT ON
+SELECT [ID], [CÓDIGO], [NOMBRE], [CATEGORÍA], [PRECIO], [DETALLES DEL PRODUCTO]
+FROM Produccion.v_Productos_NombreCategorias
+WHERE [NOMBRE] LIKE '%' + @NombreBuscado + '%'
+ORDER BY [ID]
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[EditarCategoria]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[EditarCategoria]
+@Id_Categoria INT,
+@Nombre_Categoria VARCHAR(55),
+@Descripcion VARCHAR(155)
+AS
+BEGIN
+SET NOCOUNT ON
+UPDATE Produccion.Categorias
+SET nombre_categoria = NULLIF((RTRIM(LTRIM(@Nombre_Categoria))),''),
+descripcion = NULLIF((RTRIM(LTRIM(@Descripcion))),'')
+WHERE id_categoria = @Id_Categoria	
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[EditarProducto]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [Produccion].[EditarProducto]
+@Id_Producto INT,
+@Nombre_Producto VARCHAR(55),
+@Nombre_Categoria VARCHAR(55),
+@Precio_Unitario MONEY,
+@Detalles VARCHAR(155)
+AS
+BEGIN
+SET NOCOUNT ON
+DECLARE @Id_Categoria INT
+SET @Id_Categoria = (SELECT id_categoria FROM Produccion.Categorias
+					 WHERE nombre_categoria = @Nombre_Categoria);
+IF @Id_Categoria IS NOT NULL
+BEGIN
+UPDATE Produccion.Productos
+SET nombre_producto = NULLIF((RTRIM(LTRIM(@Nombre_Producto))),''),
+id_categoria = @Id_Categoria,
+precio_unitario = NULLIF((RTRIM(LTRIM(@Precio_Unitario))),''),
+detalles = NULLIF((RTRIM(LTRIM(@Detalles))),'')
+WHERE id_producto = @Id_Producto
+END
+ELSE
+BEGIN
+RAISERROR('No se pudo actualizar el producto. La Categoría no existe.',16,1);
+END
+END;
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[EliminarCategoria]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[EliminarCategoria]
+@Id_Categoria INT
+AS
+BEGIN
+SET NOCOUNT ON;
+DELETE FROM Produccion.Categorias
+WHERE id_categoria = @Id_Categoria
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[EliminarProducto]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[EliminarProducto]
+@Id_Producto INT
+AS
+BEGIN
+SET NOCOUNT ON;
+DELETE FROM Produccion.Productos
+WHERE id_producto = @Id_Producto
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[InsertarCategoria]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[InsertarCategoria]
+@Nombre_Categoria VARCHAR(55),--Mas que columna porque al asignar el valor de aplicacion me la trunca a 35 
+@Descripcion VARCHAR(155)
+AS
+BEGIN
+SET NOCOUNT ON
+INSERT INTO Produccion.Categorias (nombre_categoria, descripcion)
+VALUES (
+NULLIF((RTRIM(LTRIM(@Nombre_Categoria))),''),
+NULLIF((RTRIM(LTRIM(@Descripcion))),'')
+);
+END
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[InsertarProducto]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[InsertarProducto]
+@Nombre_Producto VARCHAR(55),
+@Nombre_Categoria VARCHAR(55),
+@Precio_Unitario MONEY,
+@Detalles VARCHAR(155)
+AS
+BEGIN
+SET NOCOUNT ON
+DECLARE @Id_Categoria INT
+SET @Id_Categoria = (SELECT id_categoria FROM Produccion.Categorias
+					 WHERE nombre_categoria = NULLIF(RTRIM(LTRIM(@Nombre_Categoria)),''));
+IF @Id_Categoria IS NOT NULL
+BEGIN
+INSERT INTO Produccion.Productos (nombre_producto, id_categoria, precio_unitario, detalles)
+VALUES (
+NULLIF(RTRIM(LTRIM(@Nombre_Producto)),''),
+@Id_Categoria,
+NULLIF(RTRIM(LTRIM(@Precio_Unitario)),''),
+NULLIF(RTRIM(LTRIM(@Detalles)),'')
+);
+END
+ELSE
+BEGIN
+RAISERROR('No se pudo insertar el producto. La Categoría no existe.',16,1);
+END
+END
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[ListaCategorias]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[ListaCategorias]
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT [id_categoria] AS [ID], [nombre_categoria] AS [NOMBRE]
+FROM Produccion.Categorias
+ORDER BY [NOMBRE]
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[ListaProductos]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [Produccion].[ListaProductos]
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT [id_producto] AS [ID], [nombre_producto] AS [NOMBRE]
+FROM Produccion.Productos
+ORDER BY [NOMBRE]
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[MostrarCategorias]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[MostrarCategorias]
+@NumeroPagina INT,
+@RegistrosPorPagina INT
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT [id_categoria] AS [ID], [codigo] AS [CÓDIGO], [nombre_categoria] AS [NOMBRE], [descripcion] AS [DESCRIPCIÓN]
+FROM Produccion.Categorias
+ORDER BY [NOMBRE], [ID]
+OFFSET (@NumeroPagina - 1) * @RegistrosPorPagina ROWS
+FETCH NEXT @RegistrosPorPagina ROWS ONLY
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[MostrarProductos]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[MostrarProductos]
+@NumeroPagina INT,
+@RegistrosPorPagina INT
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT [ID],[CÓDIGO], [NOMBRE], [CATEGORÍA], [PRECIO], [DETALLES DEL PRODUCTO]
+FROM Produccion.v_Productos_NombreCategorias
+ORDER BY [NOMBRE], [ID]
+OFFSET (@NumeroPagina - 1) * @RegistrosPorPagina ROWS
+FETCH NEXT @RegistrosPorPagina ROWS ONLY
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[PrecioProducto]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[PrecioProducto]
+@IdBuscado AS INT,
+@Precio AS MONEY OUTPUT
+AS 
+BEGIN
+SET NOCOUNT ON
+SET @Precio = (SELECT precio_unitario
+FROM Produccion.Productos
+WHERE id_producto = @IdBuscado)
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[TamañoCategorias]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Produccion].[TamañoCategorias]
+@RegistrosPorPagina INT,
+@TotalPaginas INT OUTPUT
+AS
+DECLARE @CantidadFilas AS INT
+BEGIN
+SET NOCOUNT ON
+SET @CantidadFilas = (SELECT COUNT([id_categoria]) FROM Produccion.Categorias)
+SET @TotalPaginas = @CantidadFilas / @RegistrosPorPagina
+IF ((@CantidadFilas % @RegistrosPorPagina) > 0)
+BEGIN
+	SET @TotalPaginas = @TotalPaginas + 1
+	RETURN;
+END
+ELSE
+BEGIN
+	SET @TotalPaginas = @TotalPaginas
+END
+IF @TotalPaginas = 0
+BEGIN
+SET @TotalPaginas = 1
+END
+END;
+
+
+GO
+/****** Object:  StoredProcedure [Produccion].[TamañoProductos]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROCEDURE [Produccion].[TamañoProductos]
+@RegistrosPorPagina INT,
+@TotalPaginas INT OUTPUT
+AS
+DECLARE @CantidadFilas AS INT
+BEGIN
+SET NOCOUNT ON
+SET @CantidadFilas = (SELECT COUNT([ID]) FROM Produccion.v_Productos_NombreCategorias)
+SET @TotalPaginas = @CantidadFilas / @RegistrosPorPagina
+IF ((@CantidadFilas % @RegistrosPorPagina) > 0)
+BEGIN
+	SET @TotalPaginas = @TotalPaginas + 1
+	RETURN;
+END
+ELSE
+BEGIN
+	SET @TotalPaginas = @TotalPaginas
+END
+IF @TotalPaginas = 0
+BEGIN
+SET @TotalPaginas = 1
+END
+END;
+
+GO
+/****** Object:  StoredProcedure [Reportes].[HistorialProducto]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [Reportes].[HistorialProducto]
+@FechaInicial AS DATETIME,
+@FechaFinal AS DATETIME,
+@Producto AS VARCHAR(55)
+AS
+BEGIN
+SET NOCOUNT ON
+DECLARE @Id_Producto AS INT
+
+SET @Id_Producto = (SELECT id_producto FROM Produccion.Productos
+					  WHERE nombre_producto = @Producto)
+
+SELECT MONTH(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha))) AS MES, 
+YEAR(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha))) AS AÑO, 
+CONVERT(VARCHAR(55), MONTH(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)))) + ' / ' +
+CONVERT(VARCHAR(55), YEAR(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)))) AS PERIODO, 
+SUM(VPD.cantidad) AS CANTIDAD
+FROM Reportes.FechasLookup AS FL
+LEFT JOIN Compras.Ordenes AS VP
+ON CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)) = VP.fecha_ordenado
+LEFT JOIN Compras.OrdenDetalles AS VPD
+ON VP.id_orden = VPD.id_orden
+AND id_producto = @Id_Producto
+WHERE CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)) BETWEEN @FechaInicial AND @FechaFinal
+GROUP BY MONTH(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha))),YEAR(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)))
+ORDER BY AÑO, MES ASC
+END;
+
+
+GO
+/****** Object:  StoredProcedure [Reportes].[Historialproveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [Reportes].[Historialproveedor]
+@FechaInicial AS DATETIME,
+@FechaFinal AS DATETIME,
+@proveedor AS VARCHAR(55)
+AS
+BEGIN
+SET NOCOUNT ON
+DECLARE @Id_proveedor AS INT
+
+SET @Id_proveedor = (SELECT id_proveedor FROM Compras.Proveedor	
+					  WHERE nombre_proveedor = @proveedor)
+
+SELECT MONTH(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha))) AS MES, 
+YEAR(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha))) AS AÑO, 
+CONVERT(VARCHAR(55), MONTH(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)))) + ' / ' +
+CONVERT(VARCHAR(55), YEAR(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)))) AS PERIODO, 
+ROUND(SUM((precio_unitario - ((descuento / 100.00) * precio_unitario)) * cantidad),1) AS MONTO
+FROM Reportes.FechasLookup AS FL
+LEFT JOIN Compras.Ordenes AS VP
+ON CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)) = VP.fecha_ordenado
+AND id_proveedor = @Id_proveedor
+LEFT JOIN Compras.OrdenDetalles AS VPD
+ON VP.id_orden = VPD.id_orden
+WHERE CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)) BETWEEN @FechaInicial AND @FechaFinal
+GROUP BY MONTH(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha))),YEAR(CONVERT(DATETIME, CONVERT(CHAR(8),FL.Fecha)))
+ORDER BY AÑO, MES ASC
+END;
+
+
+
+
+GO
+/****** Object:  StoredProcedure [Reportes].[Top10Productos]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Reportes].[Top10Productos]
+@FechaInicial AS DATETIME,
+@FechaFinal AS DATETIME
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT TOP(10) nombre_producto AS PRODUCTO, 
+SUM(VPD.cantidad) AS CANTIDAD
+FROM Compras.Ordenes AS VP
+INNER JOIN Compras.OrdenDetalles AS VPD
+ON VP.id_orden = VPD.id_orden
+AND fecha_ordenado BETWEEN @FechaInicial AND @FechaFinal
+INNER JOIN Produccion.Productos AS PP
+ON PP.id_producto = VPD.id_producto
+GROUP BY nombre_producto
+ORDER BY CANTIDAD DESC
+END;
+
+
+
+GO
+/****** Object:  StoredProcedure [Reportes].[Top10Proveedor]    Script Date: 21/07/2016 1:25:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Reportes].[Top10Proveedor]
+@FechaInicial AS DATETIME,
+@FechaFinal AS DATETIME
+AS
+BEGIN
+SET NOCOUNT ON
+SELECT TOP(10) nombre_proveedor AS proveedor, 
+ROUND(SUM((precio_unitario - ((descuento/100.00) * precio_unitario)) * cantidad),1) AS SALDO
+FROM Compras.Ordenes AS VP
+INNER JOIN Compras.OrdenDetalles AS VPD
+ON VP.id_orden = VPD.id_orden
+AND fecha_ordenado BETWEEN @FechaInicial AND @FechaFinal
+INNER JOIN Compras.Proveedor AS VC
+ON VP.id_proveedor = VC.id_proveedor 
+GROUP BY nombre_proveedor
+ORDER BY SALDO DESC
+END;
+
